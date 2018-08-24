@@ -86,6 +86,15 @@ grprip: $(SRCDIR)/grprip.cpp $(LIBDEPS)
 grpbuild: $(SRCDIR)/grpbuild.cpp $(LIBDEPS)
 	$(CXX) $(SRCDIR)/$@.cpp $(OBJ) -o $@ $(CXXFLAGS)
 
+nes_tileundmp: $(SRCDIR)/nes_tileundmp.cpp $(LIBDEPS)
+	$(CXX) $(SRCDIR)/$@.cpp $(OBJ) -o $@ $(CXXFLAGS)
+
+nes_tiledmp: $(SRCDIR)/nes_tiledmp.cpp $(LIBDEPS)
+	$(CXX) $(SRCDIR)/$@.cpp $(OBJ) -o $@ $(CXXFLAGS)
+
+titlerip: $(SRCDIR)/titlerip.cpp $(LIBDEPS)
+	$(CXX) $(SRCDIR)/$@.cpp $(OBJ) -o $@ $(CXXFLAGS)
+
 .PHONY: blackt libnes cleanme clean
 
 cleanme:
