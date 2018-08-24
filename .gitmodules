@@ -1,0 +1,3 @@
+[submodule "ripple/wla-dx"]
+	path = ripple/wla-dx
+	url = https://github.com/vhelin/wla-dx.git
