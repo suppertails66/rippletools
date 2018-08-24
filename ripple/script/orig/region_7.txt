@@ -1,0 +1,156 @@
+//================================================
+// True ending
+//================================================
+
+// String 7-0 (0x13EBA)
+// 
+
+
+#END()
+
+// String 7-1 (0x13EBA)
+// 　
+
+
+#END()
+
+// String 7-2 (0x13EBB)
+// キャル：どうして　ことわったの？
+
+
+#END()
+
+// String 7-3 (0x13EC8)
+// キャル：うん・・・[BR]
+// 　　あんな　いいはなし　もうないわよ
+
+
+#END()
+
+// String 7-4 (0x13EDC)
+// キャル：なにかんがえてんのよ
+
+
+#END()
+
+// String 7-5 (0x13EE6)
+// キャル：・・・・・・
+
+
+#END()
+
+// String 7-6 (0x13EE9)
+// キャル：ナサレルさん　あたしたちより　ふたつ[BR]
+// 　　としうえ　なんだって
+
+
+#END()
+
+// String 7-7 (0x13F03)
+// キャル：きれいな　ひとだったね
+
+
+#END()
+
+// String 7-8 (0x13F0F)
+// キャル：うん・・・[BR]
+// 　　とりあえず　すむとこみつけて　それから・・・
+// 
+
+
+#END()
+
+// String 7-9 (0x13F2A)
+// キャル：え？
+
+
+#END()
+
+// String 7-10 (0x13F2D)
+// キャル：・・・・・・！
+
+
+#END()
+
+// String 7-11 (0x13F31)
+// カイル：ふ～～ん
+
+
+#END()
+
+// String 7-12 (0x13F35)
+// カイル：うん
+
+
+#END()
+
+// String 7-13 (0x13F38)
+// カイル：・・・　おまえ　これから　どうすんだよ
+
+
+#END()
+
+// String 7-14 (0x13F4A)
+// カイル：おれの　むらに　こいよ
+
+
+#END()
+
+// String 7-15 (0x13F54)
+// カイル：そ、そりゃ　おまえさえ　よけりゃって　　
+// 　　はなしだけど・・・
+
+//================================================
+// For some reason, the "good" ending has been randomly thrown
+// in the middle of things there
+//================================================
+
+#END()
+
+// String 7-16 (0x13F6F)
+// 　こうして　ゲロゲールを　たおしたカイルは[BR]
+// ナサレルおうじょと　けっこんしました
+
+
+#END()
+
+// String 7-17 (0x13F89)
+// [BR]
+// 　　　　　　　HAPPY　END
+
+//================================================
+// ... and back to the "true" ending
+//================================================
+
+#END()
+
+// String 7-18 (0x13F95)
+// カイル：ナサレルのことか？
+
+
+#END()
+
+// String 7-19 (0x13F9C)
+// カイル：うん　そうだな
+
+
+#END()
+
+// String 7-20 (0x13FA4)
+// カイル：すきでもないやつと　いっしょになんか[BR]
+// 　　なれるかよ
+
+
+#END()
+
+// The game doesn't print this -- it's used internally to load the characters
+// for the staff roll (which is already in English and not part of this script)
+// to VRAM.
+
+// String 7-21 (0x13FBD)
+// ０１２３４５６７８９あいうえおか　ABCDEFG
+// HIJKLMNOPQRSTUVWXY
+
+
+#END()
+

@@ -1,0 +1,39 @@
+//================================================
+// Area 1 items
+//================================================
+
+// String 0-0 (0x1EF9E)
+// キノミ　　　　　
+Fruit
+
+#END()
+
+// String 0-1 (0x1EFA6)
+// イチゴ　　　　　
+Strawberry
+
+#END()
+
+// String 0-2 (0x1EFAE)
+// マキモノ　　　　
+Scroll
+
+#END()
+
+// String 0-3 (0x1EFB6)
+// チズ　　　　　　
+Map
+
+#END()
+
+// String 0-4 (0x1EFBE)
+// シビレバナ　　　
+Paralyzing Flower
+
+#END()
+
+// List terminator
+<$FF>
+
+#END()
+

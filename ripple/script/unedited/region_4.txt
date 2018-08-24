@@ -1,0 +1,1384 @@
+//================================================
+// Area 3 / Area 4
+//================================================
+
+// NOTE: Area 3 is optional. It's possible to trigger the avalanche
+// event and move on to Area 4 at any time, but if you don't get the
+// treasure, you'll be locked into the bad ending.
+// 
+// Summary (Area 3):
+// * Kyle and Cal arrive at the foot of some snowy mountains.
+//   They meet a rabbit that's looking for its lost children.
+// * Kyle and Cal need to cross a snowy plain. They use zebra grass to
+//   mark the path so they can find their way back.
+//   (If the player doesn't do this, the area will loop endlessly
+//   and eventually result in a game over.)
+// * They find the rabbit's children at the end of the plain, but they
+//   won't go home.
+// * A weasel agrees to help them in exchange for a seal whisker. They
+//   bring it and receive a carrot in return.
+// * After giving the carrot to the young rabbits, they go back to their
+//   mother, and the family returns to its den.
+// * Kyle hits a tree branch, knocking snow on Cal's head. Her screams
+//   trigger an avalanche.
+//   The player has a brief window of opportunity to move around as the
+//   avalanche starts; if they do, and helped out the rabbit earlier,
+//   it will shelter them from the avalanche.
+// * The dislodged snow reveals the next sacred treasure, which the pair
+//   take before walking to Area 5.
+//
+// Red herring: One of the seals talks, but is otherwise unhelpful.
+//
+// Summary (Area 4):
+// * Kyle and Cal arrive at a ruined village on the other side of the mountains.
+//   They pick up a rope and an empty bottle with a cork stopper.
+// * A bird is sitting on a nest. Kyle harasses it and it flies away, leaving
+//   a feather.
+// * Nearby, a turtle is sitting on something shiny. By tickling it with the
+//   feather, it moves away, revealing luminescent moss.
+// * Kyle and Cal use the rope to descend into a well, the moss lighting their
+//   way.
+// * They find a cave system leading to a leaky boat. They break their bottle
+//   and use the cork to plug the leak, then take the boat out onto the ocean.
+//
+// Red herring: A crocodile that does nothing but yawn.
+
+// String 4-0 (0x12108)
+// 
+
+
+#END()
+
+// String 4-1 (0x12108)
+// 　
+　
+
+#END()
+
+// String 4-2 (0x12109)
+// キャル：カイル！　なにやってるのよ
+//Line227
+Cal: Kyle, what are you doing?!
+
+#END()
+
+// String 4-3 (0x12113)
+// キャル：ムササビさんの　おかげで　もりは　ぬけら
+// 　　れたわね
+//Line193
+Cal: We made it out of the forest thanks to that nice flying squirrel.
+
+#END()
+
+// String 4-4 (0x1212A)
+// キャル：カイル！　こんなところに　もどってきて[BR]
+// 　　どうしたの？
+Cal: What's the point of coming back here, Kyle?
+
+#END()
+
+// String 4-5 (0x12142)
+// キャル：このさきは　ゆきやまよ
+//Line194
+Cal: There's the snow mountain.
+
+#END()
+
+// String 4-6 (0x1214D)
+// キャル：きが　どうかしたの？
+Cal: It's just a tree. What about it?
+
+#END()
+
+// String 4-7 (0x12157)
+// キャル：カイル！　どこみてるのよ
+Cal: Where are you looking, Kyle?
+
+#END()
+
+// String 4-8 (0x1215F)
+// キャル：ススキが　はえてるわ
+Cal: It's zebra grass.
+
+#END()
+
+// String 4-9 (0x12167)
+// キャル：そんなのとって　どうするつもりよ[BR]
+// 　　まっ　いいか　とっておこ　　　　ポキッ
+//Line195
+Cal: What's the point of picking that up?[BR]
+Oh well. I'll take it anyway. *pluck*
+
+#END()
+
+// String 4-10 (0x12189)
+// キャル：さっき　とったじゃない
+Cal: We've already got some.
+
+#END()
+
+// String 4-11 (0x12195)
+// ゴン　ゴン
+//Line226
+*thud* *thud*
+
+#END()
+
+// String 4-12 (0x1219A)
+// キャル：ススキが　おれちゃうじゃない
+Cal: Hey, you'll snap them if you do that.
+
+#END()
+
+// String 4-13 (0x121A8)
+// キャル：こんなところに　アザラシさんが　いるわ
+//Line213
+Cal: There are seals over there.
+
+#END()
+
+// String 4-14 (0x121B8)
+// キャル：アザラシさんよ
+Cal: They're seals.
+
+#END()
+
+// String 4-15 (0x121BF)
+// キャル：こっちを　みてるわよ
+Cal: He's looking at us.
+
+#END()
+
+// String 4-16 (0x121C8)
+// キャル：きもちよさそうに　ねてるわ
+Cal: He's clearly enjoying his sleep.
+
+#END()
+
+// String 4-17 (0x121D5)
+// キャル：ねえ　アザラシさん！
+Cal: Excuse me, Mr. Seal?
+
+#END()
+
+// String 4-18 (0x121DF)
+// キャル：アザラシさん！　こうさぎを　みなかった？
+// 
+Cal: Have you seen any bunnies around, Mr. Weasel?
+
+#END()
+
+// String 4-19 (0x121F1)
+// キャル：のんきな　アザラシさんね[BR]
+// 　　ヒゲを　ぬかれても　まだ　ねてるわ
+//Line216
+Cal: Must be a heavy sleeper. He didn't even stir!
+
+#END()
+
+// String 4-20 (0x1220C)
+// キャル：いちめんに　ゆきが　つもってるわ
+//Line196
+Cal: Everything is covered in snow.
+
+#END()
+
+// String 4-21 (0x12219)
+// キャル：ゆきやまが　つづいてるわ
+Cal: The whole mountain is covered in snow.
+
+#END()
+
+// String 4-22 (0x12220)
+// キャル：だれも　いるわけないでしょ
+Cal: Why would anyone be here anyway?
+
+#END()
+
+// String 4-23 (0x1222D)
+// キャル：これを　さしておけば　みちに　まよわない
+// 　　わね
+//Line197
+Cal: Nice. With that to mark the road, we won't get lost.
+
+#END()
+
+// String 4-24 (0x12243)
+// キャル：ねえ　カイル！　なんだか　さっきから[BR]
+// 　　おなじとこばかり　あるいているような　きが　
+// 　するけど・・・
+Cal: Uhmm, Kyle? Is it just me or are we going in loops...?
+
+#END()
+
+// String 4-25 (0x1226F)
+// キャル：ねえ　カイル！　やっぱり　みちに　まよっ
+// 　　ちゃったみたいよ
+Cal: Kyle, I think we're lost...
+
+#END()
+
+// String 4-26 (0x12289)
+// キャル：あっ　こうさぎが　いるわ
+//Line198
+Cal: Look! There are little bunnies over there!
+
+#END()
+
+// String 4-27 (0x12292)
+// キャル：あの　こうさぎたち　まだいるわ
+//Line205
+Cal: The bunnies are still here.
+
+#END()
+
+// String 4-28 (0x122A0)
+// キャル：きっと　さっきの　うさぎさんの　さがして
+// 　　いた　こどもたちよ
+//Line206
+Cal: They must be the babies that big rabbit was looking for.
+
+#END()
+
+// String 4-29 (0x122BC)
+// キャル：まだ　こどもみたいね
+Cal: I think they're just babies.
+
+#END()
+
+// String 4-30 (0x122C7)
+// キャル：おやが　しんぱいしてるのに　のんきにあそ
+// 　　んでるわ
+Cal: How could they play around like that when they know their mother is worried?
+
+#END()
+
+// String 4-31 (0x122DE)
+// キャル：ねえ　キミたち！
+//Line207
+Cal: Excuse me?
+
+#END()
+
+// String 4-32 (0x122E7)
+// キャル：おかあさんが　キミたちを　さがしてたわよ
+// 
+//Line208
+Cal: Your mother is looking for you.
+
+#END()
+
+// String 4-33 (0x122F9)
+// キャル：おとなしく　おうちにかえるなら　あげても
+// 　　いいわよ
+//Line220
+Cal: If you behave and go home, I'll give it to you.
+
+#END()
+
+// String 4-34 (0x12312)
+// キャル：ゆきに　あしをとられちゃって[BR]
+// 　　もう　もどれないわよ
+Cal: There's too much snow. We can't go back now.
+
+#END()
+
+// String 4-35 (0x1232A)
+// キャル：あっ　イタチさんがいるわ
+Cal: Oh, it's a weasel.
+
+#END()
+
+// String 4-36 (0x12333)
+// キャル：イタチさんよ
+Cal: It's a weasel.
+
+#END()
+
+// String 4-37 (0x12339)
+// キャル：こんにちは　イタチさん
+//Line210
+Cal: Hello, Mr. Weasel.
+
+#END()
+
+// String 4-38 (0x12343)
+// 　　このさきの　ガケは　どうやって　わたれば[BR]
+// 　　いいのかなあ
+We need to cross a cliff. Would you happen to have any ideas?
+
+#END()
+
+// String 4-39 (0x1235C)
+// 　　ウサギさんが　こどもを　さがしてるんだけど[BR]
+// 　　みなかった？
+Ms. Rabbit is looking for her babies. Have you seen them around?
+
+#END()
+
+// String 4-40 (0x12376)
+// 　　こうさぎを　みつけたけど　かえろうとしないの
+// 　　どうしたらいいかな？
+We've found the baby bunnies but they don't want to go home. What should we do?
+
+#END()
+
+// String 4-41 (0x12397)
+// 　　おうちに　かえろうとしない　こうさぎがいるん
+// 　　だけど　どうしたらいいかな？
+//Line211
+How do we deal with some baby bunnies who don't want to go home?
+
+#END()
+
+// String 4-42 (0x123BC)
+// キャル：おっきな　ウサギさんが　いるわ
+//Line200
+Cal: It's a very big rabbit.
+
+#END()
+
+// String 4-43 (0x123C9)
+// キャル：ウサギさんよ
+Cal: It's a big rabbit.
+
+#END()
+
+// String 4-44 (0x123CF)
+// キャル：カイル！　やめなさいよ
+Cal: Stop that, Kyle!
+
+#END()
+
+// String 4-45 (0x123D8)
+// キャル：ウサギさんの　おうちね
+Cal: That's the rabbit's home.
+
+#END()
+
+// String 4-46 (0x123E2)
+// キャル：さっきの　こうさぎたちよ
+Cal: It's the baby bunnies.
+
+#END()
+
+// String 4-47 (0x123EE)
+// キャル：カイル！　いそがないと　いけないんでしょ
+// Cal: You know we have to hurry, Kyle!
+
+#END()
+
+// String 4-48 (0x12400)
+// キャル：このさきは　ずっと　ゆきやまだわ
+//Line225
+Cal: The mountain is covered in snow.
+
+#END()
+
+// String 4-49 (0x12410)
+// キャル：さっきのなだれで　やまのゆきが　なくなっ
+// 　　ちゃったわ
+//Line231
+Cal: Look! After the avalanche, all the snow from the mountain is gone!
+
+#END()
+
+// String 4-50 (0x1242A)
+// キャル：やまのちょうじょうに　なにかあるみたいよ
+// 
+//Line232
+I think there's something on top of the mountain...
+
+#END()
+
+// String 4-51 (0x1243E)
+// キャル：カイル！　みて！[BR]
+// 　　もりに　あったのと　おなじものよ
+//Line233
+Cal: Kyle, look! It's like the one from the forest!
+
+#END()
+
+// String 4-52 (0x12454)
+// キャル：うん　わかった！[BR]
+// 　　じゃあ　とるわね
+//Line236
+Cal: Okay! I'll pick it up.
+
+#END()
+
+// String 4-53 (0x12465)
+// カイル：い、いや　なんでもないよ　キャル・・・
+Kyle: N-No, it's nothing...
+
+#END()
+
+// String 4-54 (0x12475)
+// カイル：なあ　キャル・・・
+Kyle: Hey, Cal...?
+
+#END()
+
+// String 4-55 (0x1247A)
+// カイル：あいその　わるいやつだなあ
+Kyle: He doesn't look very friendly.
+
+#END()
+
+// String 4-56 (0x12487)
+// カイル：だめだ　ヒゲなんて　とらしてくれそうに　
+// 　　ないぞ
+Kyle: I don't think he's going to give me a whisker.
+
+#END()
+
+// String 4-57 (0x124A0)
+// カイル：ねているうちに　ヒゲを　ぬいてやれ！[BR]
+// 　　プチンッ
+//Line214
+Kyle: I'll take one of his whiskers while he's sleeping![BR]
+*pluck*
+
+#END()
+
+// String 4-58 (0x124B6)
+// カイル：オ～～イ
+Kyle: Hello?
+
+#END()
+
+// String 4-59 (0x124BA)
+// カイル：う～～ん
+Kyle: Oomph...
+
+#END()
+
+// String 4-60 (0x124BE)
+// 　カイルとキャルは　ゆきやまで　みちに　まよって
+// しまいました[BR]
+// 　　　　　　　　GAME　OVER
+And so Kyle and Cal were forever lost in the snowy mountains...[BR]
+        GAME　OVER
+
+#END()
+
+// String 4-61 (0x124E1)
+// 　もりを　ぬけたところから　もういちど　やりなお
+// してください
+Let's go back to when they left the forest and try again, okay?
+
+#END()
+
+// String 4-62 (0x124FE)
+// カイル：ゆきだ
+Kyle: It's snow.
+
+#END()
+
+// String 4-63 (0x12502)
+// カイル：てが　とどかないや
+Kyle: I can't reach that.
+
+#END()
+
+// String 4-64 (0x1250B)
+// カイル：そうか　こんなところに　もう１つの[BR]
+// 　　じんぎが　あったのか
+//Line234
+Kyle: Wow. Who knew there was another sacred treasure here?
+
+#END()
+
+// String 4-65 (0x12526)
+// カイル：キャル！　このじんぎも　もっていてくれ
+//Line235
+Kyle: Go ahead, Cal. It's all yours.
+
+#END()
+
+// String 4-66 (0x12537)
+// カイル：さあ　いそいで　ゲロゲールたいじに　いこ
+// 　　うか
+//Line237
+Kyle: Great! Now let's go defeat that evil Groaker!
+
+#END()
+
+// String 4-67 (0x1254A)
+// アザラシ：・・・
+Seal: ...
+
+#END()
+
+// String 4-68 (0x12550)
+// アザラシ：グー　グー　グー
+//Line215
+Seal: Zzz... Zzz...
+
+#END()
+
+// String 4-69 (0x12556)
+// キャル：いえ　みてませんけど・・・
+Cal: No, I'm sorry...
+
+#END()
+
+// String 4-70 (0x12564)
+// キャル：ええ　こうさぎなら　おおきな　いわの[BR]
+// 　　あるところで　みましたけど
+//Line202
+Cal: Yes, actually. We've seen then near a large boulder.
+
+#END()
+
+// String 4-71 (0x12585)
+// キャル：ありがと！　でも　ちょっといそいでるから
+// 
+Cal: Thank you for inviting us, but we're actually in a bit of a hurry.
+
+#END()
+
+// String 4-72 (0x12599)
+// キャル：さっきの　なだれで　ガケが　うまってるわ
+// 
+//Line238
+Cal: The avalanche covered the cliff.
+
+#END()
+
+// String 4-73 (0x125AA)
+// キャル：はやく　ゆきやまを　おりよ
+Cal: We have to hurry and climb down the mountain!
+
+#END()
+
+// String 4-74 (0x125B7)
+// キャル：なにも　もってないわよ
+Cal: We're not carrying anything.
+
+#END()
+
+// String 4-75 (0x125C1)
+// キャル：ええ　おかげでたすかりました[BR]
+// 　　ウサギさん　どうも　ありがとう　ございました
+// 
+//Line230
+Cal: Yes, thanks to you. We owe you our lives.
+
+#END()
+
+// String 4-76 (0x125E6)
+// キャル：キャ～～～～
+Cal: Eeeek!
+
+#END()
+
+// String 4-77 (0x125EB)
+// [BR]
+// 　　　　　　　　　エリア　３
+         Area 3
+
+#END()
+
+// String 4-78 (0x125EF)
+// [BR]
+// 　　　　　　　　　エリア　４
+         Area 4
+
+#END()
+
+// String 4-79 (0x125F3)
+// キャル：むらが　みえるわ
+Cal: I can see a village over there.
+
+#END()
+
+// String 4-80 (0x125FA)
+// キャル：やまよ
+Cal: It's a mountain.
+
+#END()
+
+// String 4-81 (0x125FE)
+// キャル：なにみてるの　カイル
+Cal: What are you looking at, Kyle?
+
+#END()
+
+// String 4-82 (0x12605)
+// キャル：こわれた　こやがあるわ
+//Line241
+Cal: It's a broken shed.
+
+#END()
+
+// String 4-83 (0x12610)
+// キャル：ロープが　かかってるわ
+Cal: It's a rope.
+
+#END()
+
+// String 4-84 (0x12619)
+// キャル：あきびんよ・・・[BR]
+// 　　コルクで　ふたがしてあるわ
+Cal: It's an empty bottle with a cork stopper.
+
+#END()
+
+// String 4-85 (0x1262D)
+// キャル：ざいもくね
+Cal: It's lumber.
+
+#END()
+
+// String 4-86 (0x12633)
+// キャル：ここも　あらされているみたいね
+Cal: They really did a job on this shed...
+
+#END()
+
+// String 4-87 (0x12643)
+// キャル：そんなの　もっていけないわ
+Cal: We can't bring that with us.
+
+#END()
+
+// String 4-88 (0x12650)
+// キャル：ワニさんが　いるわ
+//Line247
+Cal: It's an alligator.
+
+#END()
+
+// String 4-89 (0x12657)
+// キャル：ねむそうな　かおをしてるわね
+Cal: He looks very sleepy.
+
+#END()
+
+// String 4-90 (0x12666)
+// キャル：きれいなうみね
+Cal: The sea is very beautiful.
+
+#END()
+
+// String 4-91 (0x1266E)
+// キャル：ねえっ　ワニさん・・・
+Cal: Excuse me, Mr. Alligator?
+
+#END()
+
+// String 4-92 (0x12677)
+// キャル：およいでいくなんて　いやよ
+Cal: You want to SWIM all the way there? Forget it.
+
+#END()
+
+// String 4-93 (0x12685)
+// キャル：やけに　いしが　ごろごろしてるわね
+//Line248
+Cal: There are boulders scattered all over.
+
+#END()
+
+// String 4-94 (0x12693)
+// キャル：おっきないしね
+Cal: That's a big boulder.
+
+#END()
+
+// String 4-95 (0x1269B)
+// キャル：カメさんよ
+Cal: It's a tortoise.
+
+#END()
+
+// String 4-96 (0x126A0)
+// キャル：こんにちは　カメさん
+Cal: Hello, Mr. Tortoise.
+
+#END()
+
+// String 4-97 (0x126A9)
+// キャル：あれ！　カメさんだったみたいよ
+//Line250
+Cal: Oh dear! It was a tortoise!
+
+#END()
+
+// String 4-98 (0x126B7)
+// キャル：カイル！　いま　カメさんの　したに[BR]
+// 　　ひかるものが　みえたけど・・・
+Cal: Kyle, I think I saw something shining under the tortoise...
+
+#END()
+
+// String 4-99 (0x126D1)
+// キャル：あっ　なにか　ひかってるわよ
+Cal: Look, something's shining!
+
+#END()
+
+// String 4-100 (0x126DC)
+// キャル：これ　ヒカリゴケだわ
+//Line251
+Cal: This moss is shining.
+
+#END()
+
+// String 4-101 (0x126E7)
+// キャル：とっておくわ
+//Line242
+Cal: I'll take it.
+
+#END()
+
+// String 4-102 (0x126EE)
+// パリーン
+//Line258
+*crash*
+
+#END()
+
+// String 4-103 (0x126F2)
+// キャル：カイル！　なんてこと　するのよ[BR]
+// 　　コルクせんだけに　なっちゃったじゃない
+//Line259
+Cal: Kyle, look at what you've done![BR]
+Now we're left with just the cork!
+
+#END()
+
+// String 4-104 (0x12710)
+// バシャ　バシャ
+*splish* *splash*
+
+#END()
+
+// String 4-105 (0x12717)
+// キャル：いどがあるわ
+//Line243
+Cal: It's a water well.
+
+#END()
+
+// String 4-106 (0x1271D)
+// キャル：くらくて　よくみえないわ
+Cal: It's too dark to see clearly.
+
+#END()
+
+// String 4-107 (0x1272A)
+// キャル：このロープをつたって　いどのなかへ[BR]
+// 　　はいれそうね
+//Line252
+Cal: We can use the rope to climb down the well.
+
+#END()
+
+// String 4-108 (0x12743)
+// キャル：どうして　とっちゃうの？
+Cal: Why did you pick it up?
+
+#END()
+
+// String 4-109 (0x12750)
+// キャル：とれないわよ　そんなの
+Cal: We can't pick that up.
+
+#END()
+
+// String 4-110 (0x1275B)
+// キャル：あぶないわよ
+Cal: That's dangerous.
+
+#END()
+
+// String 4-111 (0x12761)
+// キャル：トリさんだ
+//Line244
+Cal: It's a bird.
+
+#END()
+
+// String 4-112 (0x12766)
+// キャル：トリさん　もう　かえってこないね
+Cal: I don't think the bird's coming back...
+
+#END()
+
+// String 4-113 (0x12776)
+// キャル：タマゴでも　だいてるのかな？
+Cal: Maybe she's sitting on an egg?
+
+#END()
+
+// String 4-114 (0x12785)
+// キャル：トリさんの　おうちじゃないの
+Cal: It's the bird's nest.
+
+#END()
+
+// String 4-115 (0x12792)
+// キャル：トリさんの　はねだわ
+Cal: It's a feather from that bird.
+
+#END()
+
+// String 4-116 (0x1279B)
+// キャル：ねえ　トリさん
+Cal: Excuse me, Ms. Bird?
+
+#END()
+
+// String 4-117 (0x127A2)
+// トリ：・・・
+Bird: ...
+
+#END()
+
+// String 4-118 (0x127A6)
+// キャル：カイルが　わるさするから　トリさん[BR]
+// 　　にげてっちゃったわ
+//Line246
+Cal: Kyle! The bird ran away because you were so mean!
+
+#END()
+
+// String 4-119 (0x127BE)
+// キャル：だれも　いないみたいね
+Cal: I don't think there's anybody around.
+
+#END()
+
+// String 4-120 (0x127CA)
+// キャル：ナダレのおかげで　ゆきやまを　こえられた
+// 　　みたいね[BR]
+// 　　すこしは　かんしゃしてよ　カイル！
+//Line239
+Cal: Thanks to that avalanche, we've made it through the mountain.[BR]
+I guess you deserve a bit of thanks, Kyle!
+
+#END()
+
+// String 4-121 (0x127F3)
+// キャル：ぷは～～　カイルが　ゆきなんて　かける[BR]
+// 　　から・・・　あれ？　もしかしたら　ゆきやまを
+// 　　こえたんじゃない？
+Cal: *gasp* What was the big idea, Kyle? You almost got us--[BR]
+Hey, what do you know? We've actually made it through the mountain!
+
+#END()
+
+// String 4-122 (0x12822)
+// キャル：ロープをつたって　いどのなかにはいれるわ
+// 
+//Line253
+Cal: Let's climb down the well.
+
+#END()
+
+// String 4-123 (0x12836)
+// ０
+０
+
+#END()
+
+// String 4-124 (0x12837)
+// 
+
+
+#END()
+
+// String 4-125 (0x12837)
+// 
+
+
+#END()
+
+// String 4-126 (0x12837)
+// 
+
+
+#END()
+
+// String 4-127 (0x12837)
+// キャル：どうかしたの？　カイル[BR]
+// 　　わたしに　なにか　ついてる？
+Cal: What is it, Kyle? Is there something on my face?
+
+#END()
+
+// String 4-128 (0x1284F)
+// キャル：えっ？　なに？　カイル
+Cal: Yes? What is it, Kyle?
+
+#END()
+
+// String 4-129 (0x12858)
+// キャル：キャッ！　なにするのよ　カイル！
+Cal: Eeek! What's wrong with you, Kyle?!
+
+#END()
+
+// String 4-130 (0x12862)
+// キャル：じわれで　いきどまりに　なってるわ
+Cal: It's a dead end. We can't cross this gap.
+
+#END()
+
+// String 4-131 (0x12871)
+// キャル：これじゃあ　すすめないね
+Cal: We can't move on like this.
+
+#END()
+
+// String 4-132 (0x1287E)
+// キャル：なんとか　わたれないかなあ
+Cal: Isn't there anything we can do to get across?
+
+#END()
+
+// String 4-133 (0x1288C)
+// キャル：キャッ！　なにするのよ　あぶないじゃない
+// 
+Cal: Eeek! What are you doing?! That's dangerous!
+
+#END()
+
+// String 4-134 (0x1289D)
+// キャル：おっこちても　しらないわよ
+Cal: You're going to fall if you do that, you know.
+
+#END()
+
+// String 4-135 (0x128AB)
+// アザラシ：イテッ　なにをするんだ
+Seal: Ow! Why did you do that?
+
+#END()
+
+// String 4-136 (0x128BA)
+// こうさぎ：なんだい　おねえちゃんたち[BR]
+// 　　そこ　じゃまだから　どいててよー
+Cal: Who are you? We're busy, leave us alone!
+
+#END()
+
+// String 4-137 (0x128D9)
+// こうさぎ：しらないよー　まだ　あそぶんだもん
+//Line209
+Bunny: Whatever! We wanna play!
+
+#END()
+
+// String 4-138 (0x128EB)
+// こうさぎ：なに　するんだよー　はなせよー
+Bunny: What are you doing?? Lemme go!
+
+#END()
+
+// String 4-139 (0x128FA)
+// こうさぎ：なに　するんだよー　イタイなー
+Bunny: Ow! That hurt!
+
+#END()
+
+// String 4-140 (0x12909)
+// こうさぎ：あっ　ニンジンだ！[BR]
+// 　　ぼくたちの　だいこうぶつなんだ
+//Line219
+Bunny: A carrot?? We love those!
+
+#END()
+
+// String 4-141 (0x12922)
+// こうさぎ：・・・　わかったよ[BR]
+// 　　うちに　かえるから　ニンジンちょうだい！
+//Line221
+Bunny: ...Okay, you win. We'll go home, but give us the carrot!
+
+#END()
+
+// String 4-142 (0x12940)
+// キャル：まっくらで　なにもみえないわ！
+Cal: It's too dark in here! I can't see anything!
+
+#END()
+
+// String 4-143 (0x1294F)
+// キャル：こえが　ひびくから　さけばないでよ
+Cal: Our voice echoes too much in here. Let's not speak too loudly.
+
+#END()
+
+// String 4-144 (0x12960)
+// イタチ：あそこは　とんでわたらないかぎり　むこう
+// 　　には　いけないよ
+Weasel: That cliff, huh? Unless you grow some wings I don't think you'll ever get across.
+
+#END()
+
+// String 4-145 (0x1297C)
+// イタチ：ああ　あいつらなら　にしのほうに　いった
+// 　　ところで　みたけど・・・
+Weasel: Oh yeah. I think I've seen them somewhere to the west.
+
+#END()
+
+// String 4-146 (0x1299B)
+// 　　あそこは　みちに　まよいやすいから　あまり　
+// 　　いかないほうが　いいよ
+It's easy to get lost that way though. I don't recommend going that way.
+
+#END()
+
+// String 4-147 (0x129BB)
+// イタチ：そうだなあ・・・[BR]
+// 　　アザラシのヒゲでも　とってきてくれたら[BR]
+// 　　いいことを　おしえてあげるよ
+//Line212
+Weasel: Hmm, tough one... If you bring me the whisker of a seal, I'll tell you.
+
+#END()
+
+// String 4-148 (0x129E3)
+// イタチ：んっ？　やあー
+//Line199
+Weasel: Hm? Hello there.
+
+#END()
+
+// String 4-149 (0x129EB)
+// イタチ：えっ！　ほんとに　とってきたの？[BR]
+// 　　じょうだんで　いったつもりだったのに
+//Line217
+Weasel: Whoa, you actually brought me one? I was only joking!
+
+#END()
+
+// String 4-150 (0x12A0D)
+// 　　まっ　やくそくだから　いいことを　おしえて　
+// 　　あげるよ。　あいつらだったら　このニンジンを[BR]
+// 　　もっていけば　すぐに　ついてくるよ
+//Line218
+Well, a promise's a promise. Take this carrot. Knowing them, they'll follow you as soon as they see it.
+
+#END()
+
+// String 4-151 (0x12A4B)
+// イタチ：こうさぎを　つれてくるんじゃ　なかったの
+// 
+Weasel: Show that to those bunnies and they'll follow you.
+
+#END()
+
+// String 4-152 (0x12A5F)
+// イタチ：なんだい？　それは
+Weasel: What's that?
+
+#END()
+
+// String 4-153 (0x12A69)
+// イタチ：なにするんだ
+Weasel: What are you doing?
+
+#END()
+
+// String 4-154 (0x12A6F)
+// ウサギ：ねえ　あなたたち　わたしの　こどもたちを
+// 　　みなかった？
+//Line201
+Rabbit: Excuse me, have you seen my babies?
+
+#END()
+
+// String 4-155 (0x12A8D)
+// ウサギ：そう　ありがとう
+Rabbit: I see... Thanks anyway.
+
+#END()
+
+// String 4-156 (0x12A99)
+// ウサギ：えっ　あんなところにいるの
+//Line203
+Rabbit: Ah, so THAT's where they went.
+
+#END()
+
+// String 4-157 (0x12AAA)
+// ウサギ：こんど　うちのこをみたら　うちに　かえる
+// 　　ように　いってちょうだい
+//Line204
+Rabbit: If you see them again, please tell them to come back home.
+
+#END()
+
+// String 4-158 (0x12ACD)
+// こうさぎ：うちで　ゆっくりしてきなよ
+Bunny: Come spend some time with us!
+
+#END()
+
+// String 4-159 (0x12ADB)
+// こうさぎ：ざんねんだなあ[BR]
+// 　　いつでも　あそびに　きてよ
+Bunny: Oh, that's too bad. Come play with us sometime!
+
+#END()
+
+// String 4-160 (0x12AEF)
+// ウサギ：あっ！　あんたたち　どこにいってたの[BR]
+// 　　あれほど　とおくにいっちゃ　だめだと　いって
+// 　　おいたでしょ
+//Line222
+Rabbit: Where were you, boys?! I told you, you should never go that far away!
+
+#END()
+
+// String 4-161 (0x12B23)
+// こうさぎ：ごめんなさい
+//Line223
+Bunny: We're sorry, mom!
+
+#END()
+
+// String 4-162 (0x12B2A)
+// ウサギ：どうも　ありがとう　ございました[BR]
+// 　　このさきに　わたしたちのうちが　ありますから
+// 　　いつでも　よってください
+//Line224
+Rabbit: Thank you for bringing my babies home. Our home is just ahead, you're welcome to visit us whenever you want.
+
+#END()
+
+// String 4-163 (0x12B60)
+// ウサギ：あなたたち　そんなところにいたら　あぶな
+// 　　いわよ！　はやく　こっちに　いらっしゃい
+//Line228
+Rabbit: It's too dangerous to stay here! Hurry, come with me!
+
+#END()
+
+// String 4-164 (0x12B8A)
+// ウサギ：すごい　なだれだったわね[BR]
+// 　　だいじょうぶだった？
+//Line229
+Rabbit: That was a big avalanche. Are you okay?
+
+#END()
+
+// String 4-165 (0x12BA5)
+// じじい：なにを　ウロウロしておるのじゃ
+//Line240
+Old Man: Why are you loitering around here?
+
+#END()
+
+// String 4-166 (0x12BB3)
+// じじい：じろじろ　みんでくれ　きもちのわるい！
+Old Man: Quit staring at me! You're creeping me out!
+
+#END()
+
+// String 4-167 (0x12BC7)
+// じじい：おめたち　なにをじろじろ　みておるんじゃ
+// 　　ここには　なにも　ありゃせんぞ
+Old Man: What are you looking around for? There's nothing for you in here.
+
+#END()
+
+// String 4-168 (0x12BEA)
+// じじい：ゲロゲールの　てしたどもが　あらして[BR]
+// 　　いって、　みんな　でていってしまったんじゃ
+Old Man: Everyone's left after Groaker's minions laid waste to the village.
+
+#END()
+
+// String 4-169 (0x12C0D)
+// じじい：わしはでていかんぞ　ここはわしのむらじゃ
+// 
+Old Man: I'm not going anywhere though. This is MY village.
+
+#END()
+
+// String 4-170 (0x12C22)
+// じじい：なんじゃい　それは？
+Old Man: What's that?
+
+#END()
+
+// String 4-171 (0x12C2D)
+// じじい：なにをするんじゃ
+Old Man: What are you doing?
+
+#END()
+
+// String 4-172 (0x12C35)
+// じじい：おめたち　なにをやっておるのじゃ
+Old Man: What are you two even doing?
+
+#END()
+
+// String 4-173 (0x12C45)
+// ワニ：ふわあ～～～～
+Alligator: *yaaaawn*
+
+#END()
+
+// String 4-174 (0x12C4D)
+// カメ：・・・
+Tortoise: ...
+
+#END()
+
+// String 4-175 (0x12C51)
+// カメ：な～～ん～～だ～～
+//Line249
+Tortoise: Whaaat iiis iiit?
+
+#END()
+
+// String 4-176 (0x12C5A)
+// カメ：ん～～
+Tortoise: Hmmmm...
+
+#END()
+
+// String 4-177 (0x12C5F)
+// トリ：なにするのよー
+//Line245
+Bird: Why did you do that?
+
+#END()
+
+// String 4-178 (0x12C66)
+// キャル：まだ　みちが　つづいてるわ
+//Line255
+Cal: This goes pretty far.
+
+#END()
+
+// String 4-179 (0x12C73)
+// キャル：なにも　みえないよ～～
+Cal: I can't see anything at all!
+
+#END()
+
+// String 4-180 (0x12C7D)
+// キャル：みちが　２つに　わかれてるわ
+//Line256
+Cal: There's a fork in the road.
+
+#END()
+
+// String 4-181 (0x12C89)
+// キャル：どこまで　つづいてるのかしら
+Cal: How far does this cave go?
+
+#END()
+
+// String 4-182 (0x12C98)
+// キャル：きみがわるいわね
+Cal: You're pretty bad.
+
+#END()
+
+// String 4-183 (0x12CA1)
+// キャル：いきどまりよ
+Cal: It's a dead end.
+
+#END()
+
+// String 4-184 (0x12CA8)
+// キャル：これいじょう　さきへは　すすめないわ
+Cal: We can't go any further.
+
+#END()
+
+// String 4-185 (0x12CBA)
+// キャル：わあ！　うみよ！
+Cal: Wow, it's the sea!
+
+#END()
+
+// String 4-186 (0x12CC2)
+// キャル：どっちへ　すすむの？
+Cal: Where do we go from here?
+
+#END()
+
+// String 4-187 (0x12CCD)
+// ０
+０
+
+#END()
+
+// String 4-188 (0x12CCE)
+// キャル：あれっ？　あながあいてるわ
+//Line254
+Cal: Hm? There's a cave in here.
+
+#END()
+
+// String 4-189 (0x12CDC)
+// キャル：ふねだわ
+//Line257
+Cal: It's a ship!
+
+#END()
+
+// String 4-190 (0x12CE1)
+// キャル：あなが　あいてるわ・・・　このままじゃ[BR]
+// 　　つかえないわね
+Cal: There's a hole... We can't use it like this.
+
+#END()
+
+// String 4-191 (0x12CF8)
+// カイル：よ～～し！　このコルクせんを[BR]
+// 　　あなに　はめてっと・・・
+//Line260
+Kyle: I know! We can use the cork to plug this hole!
+
+#END()
+
+// String 4-192 (0x12D11)
+// キャル：やったね！　ぴったりだわ[BR]
+// 　　これで　うみに　でられるわね
+//Line261
+Cal: It's a perfect fit! Now we can go out to sea!
+
+#END()
+
+// String 4-193 (0x12D2A)
+// カイル：うん、　いよいよ　このうみのさきに[BR]
+// 　　ゲロゲールのじょうさいが　まちうけているんだ
+// 
+//Line263
+Kyle: Yeah. Groaker's fortress awaits us.
+
+#END()
+
+// String 4-194 (0x12D4E)
+// キャル：カイル！　みて　うみよ！　うみだわ！[BR]
+// 　　やっと　どうくつから　でられたみたいよ
+//Line262
+Cal: There's the sea! We're finally out of the cave!
+
+#END()
+
+// String 4-195 (0x12D72)
+// キャル：ここからさきは　あかりがないと[BR]
+// 　　すすめないわ
+Cal: We can't progress without some source of light.
+
+#END()
+
+// String 4-196 (0x12D88)
+// キャル：さっきの　ヒカリゴケで　なんとかみえるわ
+// 
+Cal: That shiny moss gives out enough light to see around us.
+
+#END()
+

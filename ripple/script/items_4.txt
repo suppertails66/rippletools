@@ -1,0 +1,58 @@
+//================================================
+// Area 5 items
+//================================================
+
+// String 4-0 (0x1F039)
+// イカのアシ　　　
+//Squid Tentacle
+Tentacle    
+
+#END()
+
+// String 4-1 (0x1F041)
+// かみぶくろ　　　
+Paper Bag   
+
+#END()
+
+// String 4-2 (0x1F049)
+// いし　　　　　　
+Pebble      
+
+#END()
+
+// String 4-3 (0x1F051)
+// せんたくもの　　
+Laundry     
+
+#END()
+
+// String 4-4 (0x1F059)
+// せんたくばさみ　
+Clothespin  
+
+#END()
+
+// String 4-5 (0x1F061)
+// ヤリ　　　　　　
+Spear       
+
+#END()
+
+// String 4-6 (0x1F069)
+// カギ　　　　　　
+Key         
+
+#END()
+
+// String 4-7 (0x1F071)
+// さけ　　　　　　
+Alcohol     
+
+#END()
+
+// List terminator
+<$FF>
+
+#END()
+

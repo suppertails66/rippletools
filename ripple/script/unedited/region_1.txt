@@ -1,0 +1,1828 @@
+//================================================
+// Area 1
+//================================================
+
+// Summary:
+// * Kyle goes to a village, where he finds a girl whose sister is
+//   sick and needs food to get better.
+// * In the fields to the north, he finds some strawberries that
+//   heal the girl.
+// * As thanks for helping the sisters, a man in a nearby house gives
+//   Kyle a dirty scroll.
+// * Rusk, a racoon(?), cleans the scroll for Kyle, revealing a map
+//   to the northern part of the area.
+// * In the north, Kyle meets Cal, who joins him (and mostly takes
+//   over narration duties from this point on).
+// * Cal, who gets along with the animals better than Kyle, learns
+//   from a mole that Bit the rabbit may be able to help them get
+//   past the stoat blocking the way to the next area.
+// * Bit gives the two a flower with paralyzing pollen.
+// * By feeding the stoat a sleeping berry and sprinkling it with
+//   the pollen, Kyle and Cal can get past it to the castle, where
+//   they meet the king.
+//
+// Red herring: There's a girl in the village who's no help at all.
+
+// String 1-0 (0x106DA)
+// 
+
+
+#END()
+
+// String 1-1 (0x106DA)
+// 　
+ 
+
+#END()
+
+// String 1-2 (0x106DB)
+// カイル：・・・
+//Line037-Line044
+Kyle: ...
+
+#END()
+
+// String 1-3 (0x106DD)
+// カイル：なにもねえなあ
+Kyle: There's nothing here.
+
+#END()
+
+// String 1-4 (0x106E3)
+// カイル：いいてんきだなあ
+Kyle: Nice weather today.
+
+#END()
+
+// String 1-5 (0x106EB)
+// カイル：くさばっかりだ
+Kyle: Grass everywhere.
+
+#END()
+
+// String 1-6 (0x106F3)
+// カイル：とどくわけないか
+Kyle: There's no way I can reach there.
+
+#END()
+
+// String 1-7 (0x106FC)
+// ゴン　ゴン
+*thud* *thud*
+
+#END()
+
+// String 1-8 (0x10701)
+// ガサッ　ガサッ
+*rustle* *rustle*
+
+#END()
+
+// String 1-9 (0x10708)
+// カイル：かんけいねえか
+Kyle: That was pointless.
+
+#END()
+
+// String 1-10 (0x10710)
+// カイル：う～～ん
+Kyle: Uhhh...
+
+#END()
+
+// String 1-11 (0x10714)
+// カイル：オ～～イ
+Kyle: Hello?
+
+#END()
+
+// String 1-12 (0x10718)
+// カイル：だれもいないや
+Kyle: Nobody around.
+
+#END()
+
+// String 1-13 (0x10720)
+// カイル：あっ　なにももっていなかった
+Kyle: Oh. I'm not carrying anything.
+
+#END()
+
+// String 1-14 (0x1072C)
+// カイル：キノミが　なってるぞ
+Kyle: There are fruits over there.
+
+#END()
+
+// String 1-15 (0x10736)
+// カイル：１つもらっとこ　　　　プチッ
+//Line010
+Kyle: I'll take one. *pluck*
+
+#END()
+
+// String 1-16 (0x10742)
+// カイル：さっきとってたか
+Kyle: I already have one.
+
+#END()
+
+// String 1-17 (0x1074B)
+// カイル：あっ　つぶれちまった
+Kyle: Ah. I crushed it.
+
+#END()
+
+// String 1-18 (0x10754)
+// カイル：ここを　まっすぐに　いけば　おしろに[BR]
+// 　　いけるはずだが・・・
+//Line001
+Kyle: If I go straight this way,[BR]
+I should reach the castle, but...
+
+#END()
+
+// String 1-19 (0x1076E)
+// カイル：なにも　ねえとこだなあ
+Kyle: There's nothing in here.
+
+#END()
+
+// String 1-20 (0x10778)
+// カイル：あっ　へんなやつが　いるぞ
+Kyle: Ah. There's a weird creature over there.
+
+#END()
+
+// String 1-21 (0x10783)
+// カイル：だれだ　あいつ
+Kyle: I wonder who it is?
+
+#END()
+
+// String 1-22 (0x1078B)
+// カイル：あいつの　すみかみたいだなあ
+Kyle: That must be its nest.
+
+#END()
+
+// String 1-23 (0x10798)
+// カイル：オッス[BR]
+// 　　あっ　いっちまった
+Kyle: Hey there--[BR]
+Ah. It left.
+
+#END()
+
+// String 1-24 (0x107A4)
+// カイル：あらっ　かくれちまった
+Kyle: Oh. It hid.
+
+#END()
+
+// String 1-25 (0x107B0)
+// カイル：どこ　いっちまったんだ　あいつ
+Kyle: Where did it go?
+
+#END()
+
+// String 1-26 (0x107C0)
+// カイル：オ、オモイ
+Kyle: S-So heavy...
+
+#END()
+
+// String 1-27 (0x107C6)
+// カイル：びくともしねえや
+Kyle: I can't move it.
+
+#END()
+
+// String 1-28 (0x107CF)
+// カイル：へっへ　　ねちまいやがった
+Kyle: Heh, sleeping like a log.
+
+#END()
+
+// String 1-29 (0x107DC)
+// カイル：ねているうちに　このハナビラで　しびれさ[BR]
+// 　　せてやれ！
+//Line087
+Kyle: Let's sprinkle some pollen while it's sleeping!
+
+#END()
+
+// String 1-30 (0x107F6)
+// カイル：ウサギだ
+//Line002
+Kyle: It's a rabbit.
+
+#END()
+
+// String 1-31 (0x107FB)
+// カイル：あれっ　いっちまった
+Kyle: Ah. It left.
+
+#END()
+
+// String 1-32 (0x10806)
+// カイル：リトナの　むらだ
+//Line003
+Kyle: That's the village of Ritona.
+
+#END()
+
+// String 1-33 (0x1080E)
+// カイル：きこえるわけないか
+Kyle: They can't hear me from here.
+
+#END()
+
+// String 1-34 (0x10817)
+// カイル：いえが　たくさん　あるぞ
+//Line004
+Kyle: There's a lot of houses here.
+
+#END()
+
+// String 1-35 (0x10822)
+// カイル：あれっ　あかないぞ
+Kyle: Huh? It won't open.
+
+#END()
+
+// String 1-36 (0x1082C)
+// カイル：はいれるわけないか
+Kyle: I can't enter from there.
+
+#END()
+
+// String 1-37 (0x10835)
+// カイル：とどかないや
+Kyle: I can't reach it.
+
+#END()
+
+// String 1-38 (0x1083C)
+// カイル：いりぐちのようだなあ
+Kyle: That's the entrance.
+
+#END()
+
+// String 1-39 (0x10846)
+// カイル：よくみえねえなあ
+Kyle: I can't see that well from here.
+
+#END()
+
+// String 1-40 (0x1084E)
+// カイル：エントツだ
+Kyle: That's a chimney.
+
+#END()
+
+// String 1-41 (0x10854)
+// カイル：むこうにもいえがあるぞ
+Kyle: There are houses over there too.
+
+#END()
+
+// String 1-42 (0x10860)
+// カイル：だれも　でてこないや
+Kyle: Nobody came out.
+
+#END()
+
+// String 1-43 (0x1086B)
+// カイル：だれか　いるのかなあ
+Kyle: Is there anybody inside?
+
+#END()
+
+// String 1-44 (0x10875)
+// カイル：とれるわけないか
+Kyle: I can't pick THAT up.
+
+#END()
+
+// String 1-45 (0x1087D)
+// コン　コン
+//Line011
+*knock* *knock*
+
+#END()
+
+// String 1-46 (0x10882)
+// どうぞ　おはいりください
+//Line012
+Come on in.
+
+#END()
+
+// String 1-47 (0x1088E)
+// あいてるよー
+Come on in!
+
+#END()
+
+// String 1-48 (0x10894)
+// どなたですか？
+Who are you?
+
+#END()
+
+// String 1-49 (0x1089B)
+// だれだい？
+Who is it?
+
+#END()
+
+// String 1-50 (0x108A0)
+// カイル：あかねえなあ
+Kyle: It won't open.
+
+#END()
+
+// String 1-51 (0x108A6)
+// カイル：でっかい　いえだなあ
+//Line005
+Kyle: Now that's a big house.
+
+#END()
+
+// String 1-52 (0x108B0)
+// カイル：まだ　つめたそうだ
+Kyle: Must be cold.
+
+#END()
+
+// String 1-53 (0x108BA)
+// カイル：むこうに　ゆきやまが　みえるぞ[BR]
+// 　　あのやまは　たしか　みどりが　しげっていた[BR]
+// 　　はずだが・・・
+Kyle: I can see some snowy mountains that way.[BR]
+That's weird though. They're supposed to be lush green...
+
+#END()
+
+// String 1-54 (0x108E2)
+// だれじゃ　あいておるぞ
+Who is it now? Come in...
+
+#END()
+
+// String 1-55 (0x108ED)
+// カイル：みわたすかぎり　くさ　ばかりだ
+//Line007
+Kyle: Grass, as far as the eye can see.
+
+#END()
+
+// String 1-56 (0x108FD)
+// カイル：くさ　ばかりで　なにも　ねえなあ
+//Line008
+Kyle: There's only grass in here.
+
+#END()
+
+// String 1-57 (0x1090C)
+// カイル：あっ　イチゴ　みっけ
+//Line009
+Kyle: Oh, nice! I found some strawberries!
+
+#END()
+
+// String 1-58 (0x10915)
+// カイル：うまそうだなあ
+Kyle: They look tasty!
+
+#END()
+
+// String 1-59 (0x1091C)
+// カイル：あっ　いえが　しずんでいるぞ
+//Line028
+Kyle: Ah. Those houses are sinking.
+
+#END()
+
+// String 1-60 (0x10928)
+// カイル：みずうみの　みずが　ふえて　しずんで[BR]
+// 　　しまった　みたいだ。　これも　あのゲロゲール[BR]
+// 　　のしわざか・・・
+Kyle: The lake's water level has increased, that's why they're submerged. Is Gerogeeru behind this too...?
+
+#END()
+
+// String 1-61 (0x10954)
+// カイル：このあたりは　むらだった　ようだな
+Kyle: There was a village in here, once.
+
+#END()
+
+// String 1-62 (0x10965)
+// カイル：あの～～
+//Line030
+Kyle: Excuse me?
+
+#END()
+
+// String 1-63 (0x10969)
+// カイル：こ、こんにちは
+//Line033
+Kyle: H-Hello.
+
+#END()
+
+// String 1-64 (0x10971)
+// カイル：うん、よくわかるね
+//Line035
+Kyle: Yup. How did you figure that out?
+
+#END()
+
+// String 1-65 (0x1097B)
+// カイル：ゲロゲールのこと　しってるの？
+//Line038
+Kyle: What can you tell me about Gerogeeru?
+
+#END()
+
+// String 1-66 (0x10987)
+// カイル：このしまを　しはい？
+//Line040
+Kyle: Typical bad guy, then.
+
+#END()
+
+// String 1-67 (0x10991)
+// カイル：・・・・　じしんは　ないけど[BR]
+// 　　やれるとこまでは　やってみるつもりさ
+//Line046
+Kyle: ...I'm not that confident now,[BR]
+but I'll try my best.
+
+#END()
+
+// String 1-68 (0x109AF)
+// 　　このしまを　わけの　わかんないやつに[BR]
+// 　　わたしたく　ないもんな
+//Line047
+I can't let that big meanie[BR]
+do what he wants with the island.
+
+#END()
+
+// String 1-69 (0x109CC)
+// カイル：へ　？
+//Line049
+Kyle: Huh?
+
+#END()
+
+// String 1-70 (0x109D0)
+// カイル：うん・・・　そうだな・・・[BR]
+// 　　おれ　ひとりよりは　ずっと　こころづよいしな[BR]
+// 　　よしっ　いっしょに　いこう！
+//Line051
+Kyle: Hmm...[BR]
+Well, it's definitely better than traveling alone.[BR]
+Okay, let's go together!
+
+#END()
+
+// String 1-71 (0x10A00)
+// カイル：ぼくは　カイル・・・
+//Line053
+Kyle: And I'm Kyle.
+
+#END()
+
+// String 1-72 (0x10A06)
+// カイル：かわいいこだなあ
+//Line015
+Kyle: She's cute.
+
+#END()
+
+// String 1-73 (0x10A0E)
+// カイル：だれか　ねているぞ　びょうきかな？
+//Line014
+Kyle: Someone is sleeping. Maybe she's sick?
+
+#END()
+
+// String 1-74 (0x10A20)
+// カイル：あの～～[BR]
+// 　　あっちで　ねているひとは？
+//Line016
+Kyle: Uhmm,[BR]
+what's wrong with her?
+
+#END()
+
+// String 1-75 (0x10A32)
+// カイル：きれいなひとだなあ
+Kyle: Wow, she's beautiful.
+
+#END()
+
+// String 1-76 (0x10A3B)
+// カイル：ねえ　キミ！
+//BoyDiag01
+Kyle: Hey there.
+
+#END()
+
+// String 1-77 (0x10A42)
+// カイル：オーイ　オコジョの　バカヤロー
+Kyle: You're a big jerk!
+
+#END()
+
+// String 1-78 (0x10A51)
+// カイル：いまなら　いけそうだな
+Kyle: We can go through now.
+
+#END()
+
+// String 1-79 (0x10A5D)
+// カイル：おんなのこが　きのうえに　たってるぞ
+//Line029
+Kyle: There's a girl standing on top of that tree.
+
+#END()
+
+// String 1-80 (0x10A6F)
+// キャル：なにみてるのよ
+Cal: What are you looking at?
+
+#END()
+
+// String 1-81 (0x10A74)
+// キャル：なにもないわよ
+Cal: There's nothing here.
+
+#END()
+
+// String 1-82 (0x10A7A)
+// キャル：どこみてるのよ
+Cal: Where are you looking?
+
+#END()
+
+// String 1-83 (0x10A80)
+// キャル：きこえるわけないでしょ
+Cal: You know they can't hear you from here, right?
+
+#END()
+
+// String 1-84 (0x10A8B)
+// キャル：なにポケーとしてるのよ
+Cal: What are you spacing out for?
+
+#END()
+
+// String 1-85 (0x10A94)
+// キャル：ずっとやってたら
+Cal: Why are you doing that?
+
+#END()
+
+// String 1-86 (0x10A9D)
+// キャル：どこたたいてるのよ
+Cal: What are you trying to hit?
+
+#END()
+
+// String 1-87 (0x10AA5)
+// キャル：なにさわいでるのよ
+Cal: What are you touching?
+
+#END()
+
+// String 1-88 (0x10AAC)
+// キャル：キノミが　あるわ
+//Line062
+Cal: There are fruits over there.
+
+#END()
+
+// String 1-89 (0x10AB3)
+// キャル：じゃあ　とっておくわ　　　　プチッ
+//Line063-Line083
+Cal: I'll pick one. *pluck*
+
+#END()
+
+// String 1-90 (0x10AC3)
+// キャル：１つ　もってるわよ
+Cal: One is enough.
+
+#END()
+
+// String 1-91 (0x10ACC)
+// キャル：やめなさいよ　つぶれちゃうじゃない
+Cal: Stop that, you'll crush it.
+
+#END()
+
+// String 1-92 (0x10ADE)
+// キャル：なにも　ないところね
+//Line061
+Cal: There's nothing in here.
+
+#END()
+
+// String 1-93 (0x10AE8)
+// キャル：あっ　プレリさんだわ
+//Line064
+Cal: Oh, it's Prairie.
+
+#END()
+
+// String 1-94 (0x10AF0)
+// キャル：プレリさんよ
+Cal: That's Prairie.
+
+#END()
+
+// String 1-95 (0x10AF6)
+// キャル：プレリさんの　おうちみたいね
+Cal: That's Prairie's home.
+
+#END()
+
+// String 1-96 (0x10B03)
+// キャル：やめなさいよ
+Cal: Hey, stop that.
+
+#END()
+
+// String 1-97 (0x10B0A)
+// キャル：プレリさんに　おこられるわよ
+Cal: Prairie would get mad.
+
+#END()
+
+// String 1-98 (0x10B16)
+// キャル：こんにちは　プレリさん
+//Line066
+Cal: Hello Prairie.
+
+#END()
+
+// String 1-99 (0x10B20)
+// キャル：なにやってるのよ
+Cal: What are you doing?
+
+#END()
+
+// String 1-100 (0x10B26)
+// キャル：ねえ　プレリさん　ちょっと　きいても[BR]
+// 　　いいかな？
+//Line068
+Cal: Could you help me with[BR]
+something?
+
+#END()
+
+// String 1-101 (0x10B3E)
+// キャル：このさきの　にくったらしい　オコジョの[BR]
+// 　　ことなんだけど
+//Line070
+Cal: There is a mean stout[BR]
+up ahead...
+
+#END()
+
+// String 1-102 (0x10B59)
+// キャル：わたしたち　どうしても　あそこを　とおら[BR]
+// 　　なければ　ならないの。[BR]
+// 　　なにか　いいほうほうは　ないかしら？
+//Line072
+Cal: We need to go through that way,[BR]
+it's very important.[BR]
+Do you have any suggestions?
+
+#END()
+
+// String 1-103 (0x10B8A)
+// キャル：オシロが　みえてきたわ
+//Line090
+Cal: I can see the castle.
+
+#END()
+
+// String 1-104 (0x10B95)
+// キャル：りっぱな　オシロね　はやく　いきましょ
+Cal: It looks very imposing. Come on, let's hurry inside.
+
+#END()
+
+// String 1-105 (0x10BA9)
+// キャル：なにやってるのよ　カイル！[BR]
+// 　　はやく　オシロに　いきましょ
+Cal: Stop wasting time, Kyle! Let's go inside the castle!
+
+#END()
+
+// String 1-106 (0x10BC0)
+// キャル：ウサギさんね
+//Line060
+Cal: It's a rabbit.
+
+#END()
+
+// String 1-107 (0x10BC6)
+// キャル：ビットさんよ
+Cal: It's Bit.
+
+#END()
+
+// String 1-108 (0x10BCC)
+// キャル：はじめまして　ウサギさん
+//Line074
+Cal: Hello, Mr. Rabbit.
+
+#END()
+
+// String 1-109 (0x10BD8)
+// キャル：わたし　キャルっていうの　あなたは？
+//Line076
+Cal: My name is Cal. What is your name?
+
+#END()
+
+// String 1-110 (0x10BE9)
+// キャル：よろしくね　ビットさん
+//Line078
+Cal: Nice to meet you, Bit.
+
+#END()
+
+// String 1-111 (0x10BF4)
+// キャル：こんにちは　ビットさん
+Cal: Hello, Bit.
+
+#END()
+
+// String 1-112 (0x10BFE)
+// キャル：ねえ　ビットさん！[BR]
+// 　　ビットさんに　きけば　オコジョの　やっつけか[BR]
+// 　　たをしってると　プレリさんに　きいたんだけど
+// 
+//Line079
+Cal: Hey, Bit?[BR]
+Prairie said you might know a way[BR]
+to deal with that nasty stout.
+
+#END()
+
+// String 1-113 (0x10C31)
+// キャル：やめなさいよ[BR]
+// 　　かふんが　とびちっちゃうじゃない
+Cal: Don't do that! You'll cover us with its pollen!
+
+#END()
+
+// String 1-114 (0x10C48)
+// キャル：リトナの　むらよ
+//Line059
+Cal: That's the village of Ritona.
+
+#END()
+
+// String 1-115 (0x10C50)
+// キャル：いえが　たくさん　ならんでるわ
+//Line058
+Cal: There are a lot of houses here.
+
+#END()
+
+// String 1-116 (0x10C5D)
+// キャル：あかないわ。　カギが　かかってるみたいよ
+// 
+Cal: It won't open. It must be locked.
+
+#END()
+
+// String 1-117 (0x10C71)
+// キャル：いりぐち　みたいね
+Cal: That's the entrance.
+
+#END()
+
+// String 1-118 (0x10C7B)
+// キャル：エントツね
+Cal: It's a chimney.
+
+#END()
+
+// String 1-119 (0x10C81)
+// キャル：だれか　いるかしら
+Cal: I wonder if there's anybody inside.
+
+#END()
+
+// String 1-120 (0x10C8B)
+// キャル：だれも　いないのかなあ
+Cal: Is there anyone inside?
+
+#END()
+
+// String 1-121 (0x10C96)
+// キャル：へんじが　ないわ。　おるすかな
+Cal: There's no answer. Maybe they're out.
+
+#END()
+
+// String 1-122 (0x10CA5)
+// キャル：あかないわね
+Cal: It won't open.
+
+#END()
+
+// String 1-123 (0x10CAC)
+// キャル：おっこっちゃうわよ
+Cal: Careful now.
+
+#END()
+
+// String 1-124 (0x10CB5)
+// キャル：やめなさいよ　おこられるわよ
+Cal: Don't do that, they'll get mad.
+
+#END()
+
+// String 1-125 (0x10CC3)
+// キャル：とれるわけないじゃない
+Cal: There's no way you can pick that up.
+
+#END()
+
+// I guess this is some programmer's joke?
+// I don't know if there's some secret way to make it show up,
+// or if it's just an unused message.
+
+// String 1-126 (0x10CCE)
+// しもむら：コメくいたい
+Shimomura: I wanna eat rice.
+
+#END()
+
+// String 1-127 (0x10CD9)
+// オコジョ：なんだ　オマエは
+//Line065
+Stoat: Huh? Who are you?
+
+#END()
+
+// String 1-128 (0x10CE2)
+// オコジョ：ここよりさきは　とおさねえーよ[BR]
+// 　　どうしても　いきたかったら　オレサマを[BR]
+// 　　たおしてから　いきな
+Stout: Nobody's passing through here. If you wanna go through, you'll have to beat me first!
+
+#END()
+
+// String 1-129 (0x10D10)
+// オコジョ：グー　んっ？　なんだ　なんだ
+//Line088
+Stout: Zzz... Huh? W-What's going on?
+
+#END()
+
+// String 1-130 (0x10D1F)
+// オコジョ：オ、オレサマと　したことが　うっかり[BR]
+// 　　ねちまった。　　　　ざんねんだったな
+Stout: Whoa. How did THAT happen? Well, I'm awake now, too bad for you.
+
+#END()
+
+// String 1-131 (0x10D41)
+// オコジョ：あっ　からだが　しびれちまって　うごか[BR]
+// 　　ねえ　オマエたち　なにをしやがった[BR]
+// 　　おぼえてやがれ
+//Line089
+Stout: M-My body's all numb![BR]
+You did something to me, didn't you?![BR]
+You'll pay for this!
+
+#END()
+
+// String 1-132 (0x10D6B)
+// オコジョ：なにやってやがる　オマエ
+Stout: What are you tryin' to pull?
+
+#END()
+
+// String 1-133 (0x10D77)
+// オコジョ：なんだ　オマエ　オレサマに　もんくが[BR]
+// 　　あるのか
+Stout: What, got a problem with me or something'?
+
+#END()
+
+// String 1-134 (0x10D8E)
+// オコジョ：はやく　かえりな
+Stout: Get outta here.
+
+#END()
+
+// String 1-135 (0x10D97)
+// オコジョ：グー　グー　グー
+//Line086
+Stout: Zzz... Zzz...
+
+#END()
+
+// String 1-136 (0x10D99)
+// オコジョ：オレサマに　くれるのか　ありがとよ
+//Line084
+Stout: For me? Thanks.
+
+#END()
+
+// String 1-137 (0x10DAA)
+// モグ　モグ　モグ[BR]
+// オコジョ：ふあ～～　なんだか　ねむくなって[BR]
+// 　　きやがった・・・
+//Line085
+*chomp* *chomp*[BR]
+Stout: *yawn*[BR]
+Feelin' kinda sleepy now...
+
+#END()
+
+// String 1-138 (0x10DCC)
+// オコジョ：うわっ　なにをしやがるんだ
+Stout: What's wrong with you?
+
+#END()
+
+// String 1-139 (0x10DD9)
+// ラスク：カイルじゃないか　どうしたんだ？
+//Line006
+Rusk: Hey there Kyle. What's up?
+
+#END()
+
+// String 1-140 (0x10DE8)
+// ラスク：なにをやってるんだ？　カイル
+Rusk: What are you doing, Kyle?
+
+#END()
+
+// String 1-141 (0x10DF4)
+// オイラに　なにか　ついてるか？
+Is there something on my face?
+
+#END()
+
+// String 1-142 (0x10E01)
+// ラスク：どうしたんだ　カイル！
+Rusk: What's the matter, Kyle?
+
+#END()
+
+// String 1-143 (0x10E0A)
+// ラスク：あらいもの　だったら　オイラに　まかしと[BR]
+// 　　きな　なんでも　きれいにしてやるよ
+Rusk: If you have something to wash, bring it to me.[BR]
+I can clean anything!
+
+#END()
+
+// String 1-144 (0x10E2F)
+// ラスク：なにをするんだ　カイル
+Rusk: What are you doing, Kyle?
+
+#END()
+
+// String 1-145 (0x10E38)
+// ラスク：オイラに　くれるのか　ありがとう
+Rusk: Hey, thanks!
+
+#END()
+
+// String 1-146 (0x10E48)
+// ラスク：これは　ネムリのミじゃないか[BR]
+// 　　こんなの　たべたら　ねむっちゃうよ
+Rusk: Hey, this is a Drowsy Fruit.[BR]
+Eating this makes you sleepy.
+
+#END()
+
+// String 1-147 (0x10E67)
+// ラスク：なんだい　この　きたない　マキモノは[BR]
+// 　　オイラが　あらってやるよ！[BR]
+// 　　バシャ　バシャ
+//Line026
+Rusk: Oh dear! This scroll is all dirty![BR]
+Hold on, I'll wash it for you.[BR]
+*splish* *splash*
+
+#END()
+
+// String 1-148 (0x10E8E)
+// ラスク：なんだ　こりゃ　チズ　じゃないか[BR]
+// 　　これさえあれば　まよわずに　みずうみ[BR]
+// 　　まで　いくことが　できるよ
+//Line027
+Rusk: What do you know? It's a map![BR]
+You should be able to use it[BR]
+to reach the lake without getting lost.
+
+#END()
+
+// String 1-149 (0x10EBE)
+// ラスク：なんだい？　それは
+Rusk: Hm? What's that?
+
+#END()
+
+// String 1-150 (0x10EC8)
+// ラスク：イタッ[BR]
+// 　　オイラに　なにか　うらみでも　あるのか
+Rusk: Ow! Did I offend you or something?
+
+#END()
+
+// String 1-151 (0x10EDF)
+// ラスク：カイルじゃないか[BR]
+// 　　こんどは　かのじょも　いっしょかい？
+//Line056
+Rusk: Hey there, Kyle.[BR]
+She your girlfriend or something?
+
+#END()
+
+// String 1-152 (0x10EF8)
+// おんなのこ：・・・
+//Line013-Line031
+Girl: ...
+
+#END()
+
+// String 1-153 (0x10EFA)
+// おんなのこ：こんにちは
+//Line032
+Girl: Hello.
+
+#END()
+
+// String 1-154 (0x10F00)
+// おんなのこ：あなた　ゲロゲールたいじに[BR]
+// 　　いくんでしょ
+//Line034
+Girl: You're going to defeat Gerogeeru,[BR]
+aren't you?
+
+#END()
+
+// String 1-155 (0x10F11)
+// おんなのこ：その　かっこうを　みれば　わかるわよ
+// 　　しょうきんが　めあてでしょ
+//Line036
+Girl: It's clear from the way you're dressed. You're trying to collect the bounty, aren't you?
+
+#END()
+
+// String 1-156 (0x10F2F)
+// おんなのこ：あなた　こんなところに　いても　しか
+// 　　たないわよ
+Girl: Why else would you be here?
+
+#END()
+
+// String 1-157 (0x10F46)
+// おんなのこ：くわしくは　しらないけど・・・[BR]
+// 　　ゲロゲールは　ふしぎな　ちからを　てにいれて
+// 　　このしまを　しはい　しはじめたらしいわ
+//Line039
+Girl: I don't know TOO much...[BR]
+I've heard he's obtained some mysterious power and he's using it to conquer the island.
+
+#END()
+
+// String 1-158 (0x10F77)
+// おんなのこ：きたの　ほうの　むらは　たべるものが
+// 　　とれなくなって　だれも　すめなく　なったって
+// 　　きいたわ
+//Line041
+Girl: I've heard that he's made it impossible to gather food in the village up north. Nobody lives there anymore.
+
+#END()
+
+// String 1-159 (0x10FA3)
+// 　　このむらが　みずうみに　しずんだのも　ことし
+// 　　きのみや　くだものが　ぜんぜん　とれないのも
+// 
+//Line042
+And you see what happened here. He sank the entire village in the lake. No fruits or nuts to gather here.
+
+#END()
+
+// String 1-160 (0x10FCE)
+// 　　すべて　ゲロゲールの　まりょくが　しぜんの[BR]
+// 　　ちょうわを　くずしはじめたからなの
+//Line043
+Gerogeeru's magic is destroying[BR]
+the natural balance of the island.
+
+#END()
+
+// String 1-161 (0x10FEF)
+// おんなのこ：あなた　ゲロゲールを　たおす　ことが
+// 　　できる？
+//Line045
+Girl: Tell me. Can you really defeat Gerogeeru?
+
+#END()
+
+// String 1-162 (0x11003)
+// おんなのこ：わたしも　つれてって
+//Line048
+Girl: I want to come with you.
+
+#END()
+
+// String 1-163 (0x1100E)
+// キャル：きっと　やくにたつわ
+//Line050
+Girl: I'm sure I can do something to help.
+
+#END()
+
+// String 1-164 (0x11019)
+// おんなのこ：ありがとう　わたしキャル！[BR]
+// 　　キャルっていうの
+//Line052
+Girl: Thanks![BR]
+By the way, my name's Cal.
+
+#END()
+
+// String 1-165 (0x1102E)
+// おっさん：なんじゃ　おまえは
+//Line023
+Man: Hm? Who are you?
+
+#END()
+
+// String 1-166 (0x11038)
+// おっさん：あんた　あのしまいを　たすけてくれた[BR]
+// 　　そうじゃな
+//Line024
+Man: Right, the guy who helped the sisters.[BR]
+Let's see...
+
+#END()
+
+// String 1-167 (0x11050)
+// おっさん：れいといっては　なんじゃが[BR]
+// 　　この　マキモノを　やろう[BR]
+// 　　きっと　なにかの　やくにたつじゃろ
+//Line025
+Man: It may be not much of a reward,[BR]
+but I'll give you this scroll.[BR]
+Who knows, maybe it'll prove useful to you.
+
+#END()
+
+// String 1-168 (0x11078)
+// おっさん：おい　おい　かってなことを　せんで[BR]
+// 　　おくれ
+Man: Hey, stop that.
+
+#END()
+
+// String 1-169 (0x1108D)
+// おっさん：ようが　ないなら　かえってくんな
+Man: If you don't have any business with me, please leave.
+
+#END()
+
+// String 1-170 (0x1109D)
+// おっさん：はなすことは　なにもないぞ
+Man: I have nothing to say to you.
+
+#END()
+
+// String 1-171 (0x110A9)
+// おっさん：なにをするんじゃ　でてってくれ
+Man: What are you doing? Just leave already.
+
+#END()
+
+// String 1-172 (0x110B8)
+// いもうと：あっ　カイルさん　こんにちは
+Little Sis: Hello Kyle.
+
+#END()
+
+// String 1-173 (0x110C2)
+// いもうと：どうか　なさいましたか
+Little Sis: Did you need anything?
+
+#END()
+
+// String 1-174 (0x110CE)
+// いもうと：わたしの　あねです[BR]
+// 　　びょうじゃくなもので　ずっとねたきりなんです
+// 
+//Line017
+Little Sis: My big sis is very weak,[BR]
+so she can't get out of bed.
+
+#END()
+
+// String 1-175 (0x110F0)
+// 　　フルーツを　たべさせてやれば　きっとげんきに
+// 　　なると　おもうのですが　さいきんは　フルーツ
+// 　　が　とれなく　なってしまい・・・
+//Line018
+She'd get better if she could eat lots of fruits, but I haven't been able to gather any of them lately...
+
+#END()
+
+// String 1-176 (0x1112B)
+// おんなのこ：なにを　なさるんですか
+Girl: What are you trying to do?
+
+#END()
+
+// String 1-177 (0x11135)
+// いもうと：なにを　なさるんですか
+//Line019
+Girl: What are you trying to do?
+
+#END()
+
+// String 1-178 (0x1113F)
+// いもうと：ありがとう　ございます
+//Line020
+Little Sis: Thank you.
+
+#END()
+
+// String 1-179 (0x1114B)
+// いもうと：でも　それは　ネムリのミです
+Little Sis: However, that is a Drowsy Fruit.
+
+#END()
+
+// String 1-180 (0x11159)
+// いもうと：これで　あねも　げんきに　なるでしょう
+// 
+//Line021
+Little Sis: She should feel much better now.
+
+#END()
+
+// String 1-181 (0x1116C)
+// あね：カイルさん！　ありがとう　ございました[BR]
+// 　　ゲロゲールたいじに　いくそうですね[BR]
+// 　　きをつけて　くださいね
+//Line022
+Big Sis: Oh, Kyle! Thank you very much.[BR]
+You're going to defeat Gerogeeru, right?[BR]
+Please take care.
+
+#END()
+
+// String 1-182 (0x11197)
+// いもうと：なんなんですか？　それは
+Little Sis: What is that?
+
+#END()
+
+// String 1-183 (0x111A4)
+// おとこのこ：にーちゃん　だれだい？
+Boy: Who are you, mister?
+
+#END()
+
+// String 1-184 (0x111B0)
+// おとこのこ：なんだよー
+Boy: What?
+
+#END()
+
+// String 1-185 (0x111B6)
+// おとこのこ：ひとんちのもん　じろじろ　みるなよー
+// 
+Boy: It's rude to look around like that, you know.
+
+#END()
+
+// String 1-186 (0x111C9)
+// おとこのこ：かあちゃんなら　いないよー
+//BoyDiag02
+Boy: Mom isn't home.
+
+#END()
+
+// String 1-187 (0x111D7)
+// おとこのこ：なにするんだー　こどもだと　おもって
+// 　　あまくみるなよ
+Boy: Watch it! Don't look down on me just 'cause I'm a kid!
+
+#END()
+
+// String 1-188 (0x111F1)
+// おとこのこ：ひとんちのもん　かってに　さわるなー
+// 
+Boy: Hey, you can't enter someone's home and start touching their stuff!
+
+#END()
+
+// String 1-189 (0x11203)
+// オコジョ：イテッ　オレサマに　はむかおうって[BR]
+// 　　いうのか
+Stout: Ow! You tryin' to pick a fight with me or somethin'?
+
+#END()
+
+// String 1-190 (0x11219)
+// オコジョ：グー　イテッ　いてえじゃねえか
+Stout: Zzz... Oww, that hurt...
+
+#END()
+
+// String 1-191 (0x11229)
+// おっさん：わしのものを　じろじろ　みるんじゃねえ
+// 
+Man: Quit staring at my stuff.
+
+#END()
+
+// String 1-192 (0x1123C)
+// おとこのこ：くれるのか　ありがと
+Boy: Is that for me? Thanks.
+
+#END()
+
+// String 1-193 (0x11247)
+// プレリ：それは　ネムリのミだよ。　いらないや
+Prairie: That's a Drowsy Fruit. I don't need it.
+
+#END()
+
+// String 1-194 (0x11259)
+// プレリ：ボクに　くれるの？　ありがと
+Prairie: Is that for me? Thanks.
+
+#END()
+
+// String 1-195 (0x11267)
+// プレリ：なに？　それ
+Prairie: What's that?
+
+#END()
+
+// String 1-196 (0x1126D)
+// プレリ：こんにちは　キャルちゃん
+//Line067
+Prairie: Hello, Cal.
+
+#END()
+
+// String 1-197 (0x11277)
+// プレリ：なんだい？
+//Line069
+Prairie: What is it?
+
+#END()
+
+// String 1-198 (0x1127D)
+// プレリ：ああ　あいつの　ことだね？[BR]
+// 　　あいつは　いつも　いやがらせ　ばかりするんだ
+// 
+//Line071
+Prairie: Oh, that guy, huh?[BR]
+Yeah, I know him. He's a jerk.
+
+#END()
+
+// String 1-199 (0x112A0)
+// プレリ：うーん[BR]
+// 　　そうだ！　ウサギの　ビットちゃんなら　なにか
+// 　　しってるかも　しれないよ
+//Line073
+Prairie: Hmmm...[BR]
+Oh, yes! I think Bit the Rabbit might be able to help you.
+
+#END()
+
+// String 1-200 (0x112C5)
+// ウサギ：こ、こんにちは
+//Line075
+Rabbit: H-Hello.
+
+#END()
+
+// String 1-201 (0x112D0)
+// ウサギ：ぼく　ビットっていいます
+//Line077
+Rabbit: My name is Bit.
+
+#END()
+
+// String 1-202 (0x112E0)
+// ビット：こんにちは　キャルさん
+Bit: Hello, Cal.
+
+#END()
+
+// String 1-203 (0x112E8)
+// ビット：うん。　やっつけれるか　どうかは　わかん
+// 　　ないけど　シビレバナを　つかえば・・・
+//Line080
+Bit: Why, yes. I was thinking of using a certain kind of flower...
+
+#END()
+
+// String 1-204 (0x1130D)
+// ビット：ついといで
+//Line081
+Bit: Follow me.
+
+#END()
+
+// String 1-205 (0x11313)
+// ビット：ぼくに　くれるのかい？　ありがとう
+Bit: Is that for me? Thank you.
+
+#END()
+
+// String 1-206 (0x11324)
+// ビット：いらないよ　そんなもの
+Bit: I don't need that.
+
+#END()
+
+// String 1-207 (0x11330)
+// ビット：この　シビレバナの　かふんに　かかると[BR]
+// 　　からだが　しびれて　うごけなくなるんだ
+//Line082
+Bit: The pollen of this flower[BR]
+can make your whole body go numb.
+
+#END()
+
+// String 1-208 (0x11354)
+// キャル：のぞきみなんて　やめなさいよ
+Cal: Stop that. It's rude to peep.
+
+#END()
+
+// String 1-209 (0x11363)
+// キャル：くさばっかりだわ　こんなところに　いたら
+// 　　まいごに　なっちゃうわよ
+//Line055
+Cal: So much grass. It's easy to get lost in here.
+
+#END()
+
+// String 1-210 (0x11382)
+// キャル：どこをみても　くさばっかりだわ
+Cal: There's grass all around.
+
+#END()
+
+// String 1-211 (0x11392)
+// キャル：あっ　イチゴが　なってるわ
+Cal: Oh, look. Strawberries.
+
+#END()
+
+// String 1-212 (0x1139D)
+// キャル：おいしそうな　イチゴね
+Cal: Those strawberries look delicious.
+
+#END()
+
+// String 1-213 (0x113A9)
+// キャル：・・・
+//Line054
+Cal: ...
+
+#END()
+
+// String 1-214 (0x113AB)
+// キャル：こんなところにきて　どうするのよ
+Cal: Why are we here?
+
+#END()
+
+// String 1-215 (0x113BA)
+// キャル：いつまでも　こんなところにいないで[BR]
+// 　　ゲロゲールを　はやく　たおしにいくんでしょ
+Cal: We can't stay here forever. We have to find Gerogeeru and defeat him.
+
+#END()
+
+// String 1-216 (0x113DD)
+// キャル：おっきな　いえね
+//Line057
+Cal: That's a big house.
+
+#END()
+
+// String 1-217 (0x113E6)
+// キャル：まえは　みどりが　いっぱい　しげっている
+// 　　やまだったのに・・・
+Cal: Those mountains were once full of green...
+
+#END()
+
+// String 1-218 (0x11402)
+// [BR]
+// 　　　　　　　　　エリア　１
+[BR]
+         Area 1
+
+//================================================
+// Intro
+//================================================
+
+#END()
+
+// String 1-219 (0x11406)
+// 　だれも　しらない　うみのうえに　だれも[BR]
+// しらない　しまが　うかんでいる
+Unbeknownst to most, there is a certain island floating over an unknown part of the sea.
+
+#END()
+
+// String 1-220 (0x11429)
+// 　とても　ちいさな　そのしまを　しまの[BR]
+// じゅうにんたちは　リップルアイランドと　よび
+It is a very small island, that its inhabitants call "Ripple Island".
+
+#END()
+
+// String 1-221 (0x11451)
+// 　ゆたかな　しぜんに　かこまれて　へいわに[BR]
+// くらしていた
+It was a peaceful land, rich in natural environment.
+
+#END()
+
+// String 1-222 (0x1146C)
+// 　そんな　あるひ、こうてい　ゲロゲールと　なのる
+// あくまが　しゅつげんし　リップルアイランドの[BR]
+// きたの　うみに　じょうさいを　きずき
+That is until one day a demon calling himself Emperor Gerogeeru appeared, building a fortress on the sea north of Ripple Island,
+
+#END()
+
+// String 1-223 (0x114A5)
+// 　しまを　わがものに　しようと　こうどうを[BR]
+// かいしした
+claiming to be its new ruler.
+
+#END()
+
+// String 1-224 (0x114BE)
+// 　そして　やみのこうてい　ゲロゲールは　その[BR]
+// てはじめとして　リップルアイランドを　おさめ[BR]
+// ている　ドテーラおうの　ひとりむすめ、
+Then, Gerogeeru, Emperor of Darkness, attacked the castle of the rightful leader of Ripple Island, King Dotella,
+
+#END()
+
+// String 1-225 (0x114F3)
+// 　ナサレルおうじょを　りゃくだつした
+and kidnapped his daughter, Princess Nasarell.
+
+#END()
+
+// String 1-226 (0x114FD)
+// 　このままでは　リップルアイランドの　ちょうわが
+// くずれ　はめつへの　いっとを　たどるであろう
+Ripple Island's natural balance would be destroyed before long.
+
+#END()
+
+// String 1-227 (0x11527)
+// 　じたいを　おもくみた　ドテーラおうは　しまの[BR]
+// じゅうにんに　おふれを　だした
+For that reason, King Dotella sent a notice to all of the good people of the island.
+
+#END()
+
+// String 1-228 (0x11545)
+// 　ゲロゲールを　たいじしたものには　ほうびとして
+// たくさんの　ざいほうを、　そして　わしの　ひとり
+// むすめナサレルおうじょと　けっこんしてもらいたい
+// 
+"Whoever defeats Gerogeeru shall receive a great treasure, as well as the hand of my daughter, Princess Nasarell, in marriage."
+
+#END()
+
+// String 1-229 (0x1157D)
+// ０
+０
+
+#END()
+
+// String 1-230 (0x1157E)
+// 　その　おふれは　しまはずれにすむ　しょうねん[BR]
+// カイルの　みみにも　とどいた
+This notice reached Kyle, a young lad who lived on the very edge of the island. 
+
+#END()
+
+// String 1-231 (0x1159F)
+// 　いぜんから　いっかくせんきんを　ねらっていた[BR]
+// カイルは　すぐに　たびのしたくを　ととのえると
+It seemed like a good way to get rich quick, so he immediately made the preparations for his journey.
+
+#END()
+
+// String 1-232 (0x115CA)
+// 　ゲロゲールの　きたの　じょうさいを　めざして[BR]
+// しゅっぱつした
+Kyle thus headed north, towards Gerogeeru's fortress. 
+
+//================================================
+// End-of-area cutscene
+//================================================
+
+#END()
+
+// String 1-233 (0x115E2)
+// ドテーラ：わしが　このしろの　おう　ドテーラじゃ
+// 　　おまえたち　ゲロゲールたいじに　いってくれる
+// 　　そうじゃが・・・
+//Line091
+Dotella: I am King Dotella. I am told that you seek to defeat Gerogeeru...
+
+#END()
+
+// String 1-234 (0x1160D)
+// ドテーラ：これまでにも　たくさんの　ゆうしゃが[BR]
+// 　　ゲロゲールたいじに　でかけた・・・　しかし[BR]
+// 　　だれひとりとして　もどったものは　おらん
+//Line093
+Dotella: Many brave people have left[BR]
+to attempt this task...[BR]
+But none has returned.
+
+#END()
+
+// String 1-235 (0x11642)
+// 　　そして　ゲロゲールの　まりょくは　このしまの
+// 　　ぜんたいに　わたりはじめておる
+//Line094
+And now Gerogeeru is using his magic to move the entire island somewhere else.
+
+#END()
+
+// String 1-236 (0x11662)
+// ドテーラ：ヤツの　ちからには　ヒミツが　あるの[BR]
+// 　　じゃ
+//Line096
+Dotella: There is a secret behind[BR]
+his powers.
+
+#END()
+
+// String 1-237 (0x11675)
+// ０
+０
+
+#END()
+
+// String 1-238 (0x11676)
+// ドテーラ：いいつたえによると　おおむかし　この[BR]
+// 　　しまに　よのなかを　ひっくりかえすほどの[BR]
+// 　　ちからを　もった　いしが　あったそうじゃ
+//Line098
+Dotella: According to our legends,[BR]
+there is a certain stone somewhere on our island with enough power to overturn the entire world.
+
+#END()
+
+// String 1-239 (0x116B1)
+// 　　じゃが　そのいしの　ちからが　あまりにも[BR]
+// 　　つよく　わざわいしか　もたらさないことを[BR]
+// 　　さとった　ひとびとは
+//Line099
+The stone was deemed too powerful[BR]
+for mere humans to handle.[BR]
+That's why our ancestors took action.
+
+#END()
+
+// String 1-240 (0x116E4)
+// 　　そのいしを　３つにわけ　このしまの　どこかに
+// 　　ふういんしたと　いうのじゃ
+//Line100
+They split the stone in three parts, and sealed each of them in different parts of the island.
+
+#END()
+
+// String 1-241 (0x11707)
+// ドテーラ：おそらく　そうじゃろう。　３つのうちの
+// 　　ひとつの　いしを　てにいれたに　ちがいない
+//Line102
+Dotella: Yes... It is most likely that he has found one of the parts of the stone.
+
+#END()
+
+// String 1-242 (0x1172E)
+// ドテーラ：しかし　のこり　２つの　ふしぎな[BR]
+// 　　いしの　ちからを　かりれば・・・
+//Line104
+Dotella: Hope is not all lost.[BR]
+There are still the other two parts of the stone.
+
+#END()
+
+// String 1-243 (0x1174D)
+// ドテーラ：それは　わしにも　わからん・・・[BR]
+// 　　しかし　このしまの　どこかに　ふういん[BR]
+// 　　されている　ことは　たしかじゃ
+//Line106
+Dotella: Unfortunately, I do not know.[BR]
+Only one thing is for sure:[BR]
+they must be somewhere on this island.
+
+#END()
+
+// String 1-244 (0x1177C)
+// カイル：はい
+//Line092
+Kyle: That's right.
+
+#END()
+
+// String 1-245 (0x1177F)
+// カイル：そんな　すごい　まりょくとは　いったい[BR]
+// 　　どんな・・・
+//Line095
+Kyle: Whoa...[BR]
+His magic can do even that?
+
+#END()
+
+// String 1-246 (0x11797)
+// カイル：ヒミツ？
+//Line097
+Kyle: Do you know what it is?
+
+#END()
+
+// String 1-247 (0x1179C)
+// カイル：そんな　すごい　ちからに　かちめは[BR]
+// 　　ないな・・・
+//Line103
+Kyle: How are we supposed to beat[BR]
+that kind of power...?
+
+#END()
+
+// String 1-248 (0x117B3)
+// カイル：わかりました　ドテーラおう。[BR]
+// 　　その　ふういんされた　いしを　みつけだして[BR]
+// 　　ゲロゲールを　たおし、
+//Line107
+Kyle: We understand, King Dotella.[BR]
+We will find the sealed stones,[BR]
+defeat Gerogeeru,
+
+#END()
+
+// String 1-249 (0x117D8)
+// 　　このしまの　へいわを、そして　ナサレルひめを
+// 　　とりもどして　みせます
+//Line108
+save Princess Nasarell and bring peace back to the island.
+
+#END()
+
+// String 1-250 (0x117F7)
+// キャル：ゲロゲールは　そのいしを・・・
+//Line101
+Cal: Could it be that Gerogeeru...?
+
+#END()
+
+// String 1-251 (0x11800)
+// キャル：その　いしの　ふういんされている[BR]
+// 　　ところは・・・
+//Line105
+Cal: Do you know where they might have[BR]
+been sealed?
+
+#END()
+
+// String 1-252 (0x11815)
+// キャル：オコジョが　おきちゃうわよ
+Cal: Stop it, you'll wake him up.
+
+#END()
+

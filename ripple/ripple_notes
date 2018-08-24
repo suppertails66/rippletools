@@ -1,0 +1,206 @@
+
+
+$0500-054F? = composition of message to be displayed
+  - 1 byte per 8x16 character
+  - multiply by 2 and add 4 to get first of two source tile indices
+$0550-057E? = ? text
+
+to access best ending, write #9B to $0057
+
+english:
+  - convert to 8x8 (hate to do this but anything else is more trouble than
+    it's really worth)
+  - this gives us 8 lines of 24 characters each = 184/B8 total
+  - we'll need more space for messages -- could use expansion ram, but it
+    looks like we can probably just relocate the message buffer at $0500-$057E
+    to $0740 (worst-case: swap with password buffer at $0700/$0710?)
+    !!! B244, 1F355, 1FAF7 = hardcoded indirect pointers to $0500
+        1F70A = hardcoded to $0508
+      - check for $0550 too
+  - switch from on-demand font loading to always-loaded 8x8 font, eliminating
+    the need for the raw-to-slot mapping buffer ($0550-$057E)
+  - switching to 8x8 with reduced character set will free up much of the space
+    taken by the font (B3A0-C000) for other things
+  - original text bank (10000-14000) is basically full up, but we can probably
+    just expand the ROM and split the lookups in software (regions >= 3 go to
+    a different bank)
+  - password printing routines (e.g. 1F6B1) will have to be redone
+    - find out what handles the "password is wrong" message
+  - watch out for hardcoded stuff (e.g. 1F696 does something special if
+    screennum at $57 is A0 (ending? credits?))
+    B291 = special cases for nametable transfer
+  - area 5: dialogue choice
+  - passwords beginning in さかいあつし trigger good ending
+  TODO:
+    - item names?
+    - password?
+      * 1F736 = パスワード
+  freed space:
+    1FA3B-1FAC7: font->VRAM transfer at NMI
+
+strings:
+  10000 = table of string tables (by area number?)
+    - 0x8 entries (zeroth is same as first)
+    - each entry points to a series of string pointers.
+    
+      due to a simple 8-bit subtraction being used to calculate the length
+      of each string, the string pointers:
+        _must_ be in order
+        _must_ have a dummy entry after the last valid string
+      also, the first string in each area should be empty?
+
+text:
+  00-C5 are literal indices?
+  C6-FF are dictionary lookups:
+    dictionary is at 1F760 (internally split into 2 parts due to use of Y reg)
+    entries are 8 bytes each, terminated with FF if shorter
+      1F760 = dictionary for C6-E5 commands
+        * 8 bytes each, terminate with FF
+      1F860 = dictionary for E6-FF commands
+        * 8 bytes each, terminate with FF
+  font starts at B3A0 -- see 1FA74
+    * to get offset into data, multiply by 16
+    * 1bpp (complemented before being output as upper bitplane of pattern)
+    * upper half of character followed by lower half
+    * C5 characters total?
+  to buffer a message for display, write to the following addresses:
+    * $6D = ID of first string in message
+    * $80 = ID of second string in message
+    * $81 = ID of third string in message
+    if fewer strings are needed, write in this order and leave the others at 00
+  original game's display is 24x4 = 96 characters with space in memory for 92
+    - we could probably expand this to 26x4 = 104 characters while keeping the
+      8x16 font, but would it be enough?
+    
+string stuff:
+  $0039 = flag set if print needed?
+  $0059 = pending stringnum?
+  $006C = set to string num when needed?
+  $006D = set to string num when needed?
+  $0088 = flag set if raw string -> displayable conversion needed?
+  $0089 = flag set if string display needed??
+  $00F0 = pending string regionnum?
+  
+  192D1 = "look" command handler?
+    19309-19428 = array of pointers for each screen giving object descriptions?
+
+1EF92 = pointers for item names per area
+
+; 1C302 = jump table for active action
+; see 1C2FD
+
+; 00 = no action      1C316 (wait for vblank)
+; 01 = move           18B84
+; 02 = look           18E5F
+; 03 = talk           19571
+; 04 = get            19A4D
+; 05 = item           1A1E8
+; 06 = go             1A86B
+; 07 = hit            1ABE4
+; 08 = "up"           1B081
+; 09 = password       1B3E7
+
+"talk" handler: 19571
+  calls a handler based on screennum ($57) -- jump table at 19576
+    - 0x92 entries (= number of screens?)
+
+title graphics:
+  1854A = 16x16 metatile definitions (UL, LL, UR, LR?)
+  18672 = row metatile indices (16b each)
+  18772-187B1? = 8b attribute map rows?
+  187B2 = 16x16 row indices for curtain tilemap
+  187C2 = 16x16 row indices for title tilemap
+  
+graphics loading:
+  1C337 = set indices for bg/sprite graphics
+  1EEAB = queue loading for bg/sprites from indices
+
+  0046-0047: PPU putpos during inter-area graphics load?
+  see 1C337:
+    004C: ?
+    004D: area sprite graphic ID
+    004E: area tile graphic ID
+  0050: flag for loading update at NMI (see 1FF22)
+  0064-0065: getpos during graphics load?
+  0066: ?
+  
+  bank 0: 0xB graphics
+  bank 1: 0xC graphics
+  bank 2: 0xB graphics (? but some are invalid 8000 entries?)
+  bank 3: 0xB not-graphics
+    * all of these except 10 are not graphics.
+      10 is the close-up of cal during her first appearance.
+      presumably it got moved here for lack of space.
+      in any case it doesn't need translation, so there's no problem. (maybe)
+
+graphics containing text:
+  bank1/10 = bad ending "eh"
+  bank2/02 = avalanche "kya"
+  bank2/07 (08?) = "sake"
+
+memory:
+  0027: temp storage for params?
+  002A: temp storage for params?
+  0030: vblank flag (zeroed at vblank)
+  0031: if nonzero, in process of copying needed font chars to VRAM
+        see 1FF60
+  0033: "print-text" flag?
+  0036: if nonzero, ???
+  $0039 = flag set if print needed?
+  003A: if nonzero, text pending?
+  003F: ?
+  0040: ppu pattern table text tile putpos
+  0042: current print put index
+  0043: current print $0500 getpos
+  0049: selected item index?
+        1F0F9 = array of x/y positions for 8 indices
+        1 = row 1 left
+        2 = row 1 middle
+        3 = row 1 right
+        4 = row 2 left
+        5 = row 2 middle
+        6 = row 2 right
+        7 = row 3 left
+        8 = row 3 middle
+  0057: current screennum -- set to load new screen
+  0058: "previous" screennum for purpose of detecting screen changes
+        (if $57 != $58, switch to screen $57)
+  $0059 = pending stringnum?
+        if 01, print text every frame??
+  005A: currently highlighted action (1 = move, 2 = look, etc.)
+    - ? text
+  005B: previously selected action (after choosing an icon)
+  005F: when an object has been selected to interact with, this is the
+        object number? (screen-local)
+  $006C = set to string num when needed?
+  006D: stringnum of first message
+  0080: stringnum of second message
+  0081: stringnum of third message
+  $0088 = flag set if raw string -> displayable conversion needed?
+  $0089 = flag set if string display needed??
+          controls talking sound effect tone
+  008C: ? action?
+  0092: ? flag, used for NMI text(?) update
+        see 1FF74
+  009C: "good ending" flag -- nonzero if on track for good ending, 00 if not
+  $00D0 = acquired items bitfield
+  $00F0 = pending string regionnum?
+  00FC: scrollY
+  03FC: ?
+  03FD: ?
+  0500-054F? = composition of message to be displayed
+    - 1 byte per 8x16 character
+    - multiply by 2 and add 4 to get first of two source tile indices
+  0550-057E? = indicates which raw character is loaded at the corresponding
+    position in 0500 (so same character can be recycled as needed)
+  0680-???? = buffer for raw string content
+
+routines:
+  B30D: at NMI if flag $0038 set: text box clear + next string ready?
+  192D1: "look" command handler?
+  1AEC9: "hit" command handler?
+  1C000: main loop?
+  1ED4D: wait for vblank
+  1F648: clear text index buffer
+  1FC2F: jump to a routine from a table that immediately follows the
+         return address of the calling routine

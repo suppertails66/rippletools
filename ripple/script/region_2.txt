@@ -1,0 +1,1311 @@
+//================================================
+// Area 2
+//================================================
+
+// Summary:
+// * Kyle and Cal arrive in a forest and talk to a squirrel,
+//   who tells them a wise man lives somewhere nearby.
+// * After gathering berries and giving them to an owl, they
+//   learn that the wise man is behind a waterfall.
+// * The wise man refuses to talk unless he is brought a red
+//   flower.
+// * Cal obtains a white flower from a nearby fox couple by
+//   making a grass whistle.
+// * Kyle dyes the white flower red using a berry.
+// * Receiving the fake red flower, the wise man tells Kyle and
+//   Cal the secret to obtaining the first sacred treasure. They
+//   go get it.
+// * Obtaining the treasure impresses a flying squirrel, who offers
+//   them a ride over the northern swamp to the next area.
+//
+// Red herring: There's a red flower growing on the side of a cliff,
+// but it's impossible to obtain.
+
+// String 2-0 (0x11822)
+// 
+
+
+#END()
+
+// String 2-1 (0x11822)
+// 　
+ //
+
+#END()
+
+// String 2-2 (0x11823)
+// キャル：カイル！　なにやってるのよ
+//Line166
+Cal: Kyle, what are you[BR]
+  doing?!
+
+#END()
+
+// String 2-3 (0x1182D)
+// キャル：きが　どうかしたの？
+//Line164
+Cal: It's just a tree.[BR]
+  What about it?
+
+#END()
+
+// String 2-4 (0x11837)
+// キャル：しげみが　あるだけよ
+//Line128
+Cal: It's just a thick-[BR]
+  et.
+
+#END()
+
+// String 2-5 (0x11841)
+// キャル：はっぱが　どうかしたの？
+Cal: Just normal leaves.
+
+#END()
+
+// String 2-6 (0x1184D)
+// キャル：カイル！　どこみてるのよ
+//Line163
+Cal: What are you look-[BR]
+  ing at, Kyle?
+
+#END()
+
+// String 2-7 (0x11855)
+// キャル：くらくて　よくみえないわ
+Cal: It's too dark to[BR]
+  see anything over[BR]
+  there.
+
+#END()
+
+// String 2-8 (0x11862)
+// カイル：う～～ん
+//Line165
+Kyle: Oomph...
+
+#END()
+
+// String 2-9 (0x11866)
+// ガサッ　ガサッ
+//Line124
+(rustle) (rustle)
+
+#END()
+
+// String 2-10 (0x1186D)
+// キャル：なんにも　ないわよ
+Cal: Nope, nothing in[BR]
+  here.
+
+#END()
+
+// String 2-11 (0x11876)
+// ゴン　ゴン
+//Line130
+(thud) (thud)
+
+#END()
+
+// String 2-12 (0x1187B)
+// キャル：あのもりを　ぬけないと　いけないのね
+//Line109
+Cal: We have to get[BR]
+  through that forest[BR]
+  somehow.
+
+#END()
+
+// String 2-13 (0x1188D)
+// キャル：カイル！　どこへいくのよ
+Cal: Kyle, where are you[BR]
+  going?
+
+#END()
+
+// String 2-14 (0x11897)
+// キャル：だれも　いるわけないじゃない
+//Line158
+Cal: Why would anyone be[BR]
+  here anyway?
+
+#END()
+
+// String 2-15 (0x118A5)
+// カイル：オ～～イ
+//Line157
+Kyle: Helloooo?
+
+#END()
+
+// String 2-16 (0x118A9)
+// キャル：さっき　オシロにいったときに　ぜんぶ　　[BR]
+// 　　おいてきちゃったわよ
+Cal: We left everything[BR]
+  we were carrying at[BR]
+  the castle.
+
+#END()
+
+// String 2-17 (0x118C6)
+// キャル：なにも　もってないわよ
+Cal: We're not carrying[BR]
+  anything.
+
+#END()
+
+// String 2-18 (0x118D0)
+// キャル：こんなところに　もどってきて　どうする[BR]
+// 　　つもりなの？
+Cal: What's the point of[BR]
+  coming back here?
+
+#END()
+
+// String 2-19 (0x118EA)
+// キャル：あっ　リスのクレルさんだわ
+//Line110
+Cal: Ah, it's Crell the[BR]
+  Squirrel.
+
+#END()
+
+// String 2-20 (0x118F5)
+// キャル：クレルさんよ
+Cal: That's Crell.
+
+#END()
+
+// String 2-21 (0x118FB)
+// キャル：クレルさんの　おうちのようね
+Cal: That's Crell's[BR]
+  home.
+
+#END()
+
+// String 2-22 (0x11908)
+// キャル：こんにちは　クレルさん！
+//Line111
+Cal: Hello, Crell!
+
+#END()
+
+// String 2-23 (0x11913)
+// キャル：うん　ゲロゲールたいじにいくんだ
+//Line113
+Cal: Yup. We're going to[BR]
+  defeat Groaker.
+
+#END()
+
+// String 2-24 (0x11920)
+// キャル：やめなさいよ
+Cal: Don't do that.
+
+#END()
+
+// String 2-25 (0x11927)
+// キャル：さびしいところね
+//Line123
+Cal: This part looks de-[BR]
+  solate...
+
+#END()
+
+// String 2-26 (0x11930)
+// キャル：どっちに　すすめばいいのかな？
+//Line116
+Cal: Where do we go from[BR]
+  here?
+
+#END()
+
+// String 2-27 (0x1193F)
+// キャル：あっ　ほらあながあるわ
+//Line117
+Cal: Hey, there's a cave[BR]
+  over there.
+
+#END()
+
+// String 2-28 (0x11948)
+// キャル：キツネさんたちの　おうちよ
+//Line122
+Cal: That's the foxes'[BR]
+  home.
+
+#END()
+
+// String 2-29 (0x11954)
+// キャル：だれかの　おうちかしら
+Cal: I wonder if anyone[BR]
+  lives in there?
+
+#END()
+
+// String 2-30 (0x1195F)
+// キャル：へんじが　ないわね
+Cal: No answer.
+
+#END()
+
+// String 2-31 (0x11968)
+// キャル：ねえ、　キツネさん
+Cal: Excuse me, Mr. Fox?
+
+#END()
+
+// String 2-32 (0x11971)
+// キャル：クサブエに　できそうだわ
+//Line120
+Cal: This will make for[BR]
+  a good grass whistle.
+
+#END()
+
+// String 2-33 (0x1197D)
+// ０
+０
+
+#END()
+
+// String 2-34 (0x1197E)
+// キャル：あっ　きから　どんぐりがおちてきたわ
+//Line131
+Cal: Oh, an acorn fell[BR]
+  from the tree.
+
+#END()
+
+// String 2-35 (0x1198F)
+// キャル：もう　おちてこないわよ
+Cal: Nothing else is[BR]
+  falling down.
+
+#END()
+
+// String 2-36 (0x1199A)
+// キャル：カイル！　みて！[BR]
+// 　　むこうのほうに　なにかあるわ[BR]
+// 　　きっと　じんぎよ　いってみましょ
+//Line180
+Cal: Kyle, look! There's[BR]
+  something over there![BR]
+  It has to be the sac-[BR]
+  red treasure!
+
+#END()
+
+// String 2-37 (0x119BD)
+// [BR]
+// 　　　　　　　　　エリア　２
+ [BR]
+ [BR]
+         Area 2
+
+#END()
+
+// String 2-38 (0x119C1)
+// キャル：もとどおりに　もどっちゃったわ
+//Line188
+Cal: It went back to[BR]
+  normal.
+
+#END()
+
+// String 2-39 (0x119D0)
+// キャル：やっと　みつけることが　できたね
+//Line181
+Cal: We've finally found[BR]
+  it.
+
+#END()
+
+// String 2-40 (0x119E0)
+// カイル：ああ！　これさえあれば　ゲロゲールなんて[BR]
+// 　　へっちゃらだよ
+//Line182
+Kyle: Yeah! Now Groaker[BR]
+  won't be any trouble!
+
+#END()
+
+// String 2-41 (0x119F8)
+// キャル：うんっ　そうね
+//Line183
+Cal: Yes, you're right.
+
+#END()
+
+// String 2-42 (0x11A00)
+// キャル：すごく　きれいね。　ほうせきみたい[BR]
+// 　　わたしが　もっていてもいい？
+//Line184
+Cal: It looks like a[BR]
+  jewel...It's so beau-[BR]
+  tiful. May I carry it?
+
+#END()
+
+// String 2-43 (0x11A20)
+// カイル：うんっ　なくすんじゃないぞ
+//Line185
+Kyle: Sure thing. Make[BR]
+  sure not to lose it!
+
+#END()
+
+// String 2-44 (0x11A2E)
+// キャル：じゃあ　とるわね
+//Line132-Line186
+Cal: Alright, I'll pick[BR]
+  it up.
+
+#END()
+
+// String 2-45 (0x11A36)
+// カイル：さあっ　そろそろ　いくぞ
+//Line187
+Kyle: Okay, let's move[BR]
+  on.
+
+#END()
+
+// String 2-46 (0x11A41)
+// キャル：あっ　しげみから　あかいミがでてきたわ
+//Line125
+Cal: Oh, there was a red[BR]
+  fruit hidden in that[BR]
+  thicket.
+
+#END()
+
+// String 2-47 (0x11A53)
+// キャル：もう　ないみたいよ
+Cal: I don't think we'll[BR]
+  find any more.
+
+#END()
+
+// String 2-48 (0x11A5D)
+// キャル：とっておくわよ　　　　　　プチッ
+//Line126
+Cal: I'll pick it up.[BR]
+  (pluck)
+
+#END()
+
+// String 2-49 (0x11A69)
+// キャル：あっ　なにするのよ
+//Line168
+Cal: Hey, what are you[BR]
+  doing?
+
+#END()
+
+// String 2-50 (0x11A6E)
+// カイル：やった　しろいはなが　あかいはなに[BR]
+// 　　なったぞ
+//Line169
+Kyle: Alright! The white[BR]
+  flower turned red!
+
+#END()
+
+// String 2-51 (0x11A83)
+// キャル：フクロウさんの　いってた　みずのかべって[BR]
+// 　　たきのこと　だったのね
+//Line143
+Cal: So the {wall of wa-[BR]
+  ter} the owl mentioned[BR]
+  was the waterfall...
+
+#END()
+
+// String 2-52 (0x11AA2)
+// キャル：こわそうな　おじいさんね
+Cal: He's a bit scary.
+
+#END()
+
+// String 2-53 (0x11AAE)
+// キャル：ひがともってるわ
+Cal: There's a campfire[BR]
+  in here.
+
+#END()
+
+// String 2-54 (0x11AB5)
+// カイル：ぼくらは　ゲロゲールを　たおすために[BR]
+// 　　たびをしています。　おじいさんに　あえば[BR]
+// 　　ちからになってもらえると　いわれてきました。
+// 
+//Line145
+Kyle: We're travellers,[BR]
+  looking for Groaker in[BR]
+  order to defeat him.[BR]
+  We were told that you[BR]
+  could help us somehow.
+
+#END()
+
+// String 2-55 (0x11AEC)
+// キャル：わたしたちに　できることなら
+//Line147
+Cal: We'll do what we[BR]
+  can.
+
+#END()
+
+// String 2-56 (0x11AFA)
+// カイル：わかりました　あかいはなですね？
+//Line149
+Kyle: A red flower?[BR]
+  Sounds simple enough.
+
+#END()
+
+// String 2-57 (0x11B0B)
+// カイル：はい。　ドテーラおうに　ききました
+//Line173
+Kyle: Yes, King Dotella[BR]
+  told us about them.
+
+#END()
+
+// String 2-58 (0x11B17)
+// カイル：ほんとうですか？　ぜひ　おしえてください
+// 
+//Line175
+Kyle: Really? Please,[BR]
+  tell us where to find[BR]
+  it!
+
+#END()
+
+// String 2-59 (0x11B2C)
+// カイル：どうも　ありがとう、　おじいさん
+//Line178
+Kyle: Thank you, sir.
+
+#END()
+
+// String 2-60 (0x11B3C)
+// キャル：コクのミが　なってるわ
+//Line129
+Cal: There are kiwis on[BR]
+  that tree.
+
+#END()
+
+// String 2-61 (0x11B45)
+// キャル：もう　もってるわよ
+Cal: We already have[BR]
+  one.
+
+#END()
+
+// String 2-62 (0x11B4E)
+// キャル：がけに　でちゃったわ
+//Line156
+Cal: We've reached a[BR]
+  cliff.
+
+#END()
+
+// String 2-63 (0x11B58)
+// キャル：カイル！　そんなところを　みてると[BR]
+// 　　あぶないわよ
+Cal: Careful, Kyle![BR]
+  That's dangerous!
+
+#END()
+
+// String 2-64 (0x11B6D)
+// キャル：なにやってるのよ　おっこちても　しらない[BR]
+// 　　わよ
+//Line162
+Cal: What are you doing?[BR]
+  You're going to fall.
+
+#END()
+
+// String 2-65 (0x11B81)
+// キャル：いきどまりに　なってるわ
+Cal: It's a dead end.
+
+#END()
+
+// String 2-66 (0x11B8B)
+// キャル：おじいさんの　いってた　あかいはなが[BR]
+// 　　さいてるわ
+//Line159
+Cal: That's the red flo-[BR]
+  wer the old man men-[BR]
+  tioned.
+
+#END()
+
+// String 2-67 (0x11BA0)
+// キャル：あかいはなよ　あれを　おじいさんの　とこ[BR]
+// 　　ろに　もっていけばいいのね
+//Line160
+Cal: It's a red flower.[BR]
+  We're supposed to[BR]
+  bring it to the old[BR]
+  man.
+
+#END()
+
+// String 2-68 (0x11BBF)
+// キャル：あかいはなが　さいてるわ
+Cal: It's a red flower.
+
+#END()
+
+// String 2-69 (0x11BC9)
+// カイル：だめだ　てがとどかないや
+//Line161
+Kyle: Dang it. I can't[BR]
+  reach that far.
+
+#END()
+
+// String 2-70 (0x11BD6)
+// キャル：フクロウさんだ
+//Line133
+Cal: It's an owl.
+
+#END()
+
+// String 2-71 (0x11BDD)
+// キャル：ねえ　フクロウさん　ものしりじいさんの[BR]
+// 　　いばしょを　しってる？
+//Line138
+Cal: Excuse me, Mr. Owl,[BR]
+  do you know where the[BR]
+  wise old man is?
+
+#END()
+
+// String 2-72 (0x11BFA)
+// キャル：むこうに　ゆきやまが　みえるわ
+//Line151
+Cal: I can see snowy[BR]
+  mountains far ahead.
+
+#END()
+
+// String 2-73 (0x11C07)
+// キャル：かんたんに　もりを　ぬけられたみたいね
+//Line152
+Cal: This looks like the[BR]
+  way out of the forest.
+
+#END()
+
+// String 2-74 (0x11C19)
+// キャル：キャッ
+//Line153
+Cal: Eek!
+
+#END()
+
+// String 2-75 (0x11C1D)
+// キャル：なによー　これ[BR]
+// 　　これじゃ　さきに　すすめないわ
+//Line154
+Cal: W-What are those??[BR]
+  We can't go any fur-[BR]
+  ther!
+
+#END()
+
+// String 2-76 (0x11C33)
+// キャル：なんだか　ねばねば　してるわよ
+Cal: I don't know what[BR]
+  that is, but it's[BR]
+  creepy.
+
+#END()
+
+// String 2-77 (0x11C42)
+// キャル：ムササビさんの　おうちよ
+Cal: That's where the[BR]
+  flying squirrel lives.
+
+#END()
+
+// String 2-78 (0x11C4D)
+// キャル：いやよ　きもちわるい
+Cal: Ewww, no way![BR]
+  They're creepy!
+
+#END()
+
+// String 2-79 (0x11C58)
+// キャル：とどかないわよ
+Cal: We can't reach[BR]
+  that.
+
+#END()
+
+// String 2-80 (0x11C5F)
+// じじい：だれじゃ　おぬしらは
+//Line144
+Old Man: And who might[BR]
+  you be?
+
+#END()
+
+// String 2-81 (0x11C6A)
+// じじい：あかいはなは　とれたかな？
+//Line170
+Old Man: Did you bring[BR]
+  me a red flower?
+
+#END()
+
+// String 2-82 (0x11C77)
+// じじい：ふむ・・・　ちからに　ならんこともないが[BR]
+// 　　そのかわり　わしの　たのみも　きいてくれんか[BR]
+// 　　のうー
+//Line146
+Old Man: Hmmm...Yes,[BR]
+  that is true, but I[BR]
+  won't do it for[BR]
+  naught. I need you to[BR]
+  do something for me[BR]
+  first.
+
+#END()
+
+// String 2-83 (0x11CA3)
+// じじい：かいがんの　がけぞいに　さいておる[BR]
+// 　　あかいはなが　ほしいんじゃがなー
+//Line148
+Old Man: There is a cer-[BR]
+  tain red flower that[BR]
+  grows on the cliffs[BR]
+  near the coastline. I[BR]
+  want you to bring me[BR]
+  one of them.
+
+#END()
+
+// String 2-84 (0x11CC3)
+// じじい：なんじゃい　それは
+Old Man: What is that[BR]
+  thing?
+
+#END()
+
+// String 2-85 (0x11CCD)
+// じじい：わしのほしいのは　あかいはなじゃ
+//Line150
+Old Man: I said a {red}[BR]
+  flower.
+
+#END()
+
+// String 2-86 (0x11CDD)
+// じじい：お～～　これが　あのはなか[BR]
+// 　　おぬしたち　なかなか　やるのお～～
+//Line171
+Old Man: Ohhh, it's a[BR]
+  red flower! You're[BR]
+  braver than I thought.
+
+#END()
+
+// String 2-87 (0x11CFA)
+// じじい：やくそくじゃ　いいことを　おしえてやろう[BR]
+// 　　おぬしは　このしまに　ふるくからつたわる[BR]
+// 　　３しゅのじんぎを　しっておるか？
+//Line172
+Old Man: As promised,[BR]
+  I'll help you...by[BR]
+  giving you informa-[BR]
+  tion. Do you know of[BR]
+  the three sacred trea-[BR]
+  sures of our island?
+
+#END()
+
+// String 2-88 (0x11D33)
+// じじい：そうか　それなら　はなしがはやい[BR]
+// 　　その３しゅのうち　１つは　このもりのなかに[BR]
+// 　　あるのじゃ
+//Line174
+Old Man: Good, that'll[BR]
+  save me some time. One[BR]
+  of the treasures is[BR]
+  actually here, in this[BR]
+  very forest.
+
+#END()
+
+// トモヨノダイピンポン is a reference to a contemporary
+// commercial for the Toyota Corolla II Windy featuring
+// idol Tomoyo Harada.
+// See https://www.youtube.com/watch?v=ilSzBp7FtCY
+
+// String 2-89 (0x11D5F)
+// じじい：いまから　いうことを　しっかりおぼえてお[BR]
+// 　　くのじゃ[BR]
+// 　　　　　ー　トモヨノダイピンポン　ー
+//Line176
+
+//Old Man: Remember these[BR]
+//  words well...[BR]
+// [BR]
+// - TOMOYONODAIPINPON -
+ 
+Old Man: Remember these[BR]
+  words well...[BR]
+ [BR]
+    - JUSTINBAILEY -
+
+#END()
+
+// String 2-90 (0x11D89)
+// 　　もりのなかに　３ぼんのたいぼくが　ならぶとこ[BR]
+// 　　ろがある。　そこで　いまのことばを　さけぶの[BR]
+// 　　じゃ
+//Line177
+  There is a spot in the[BR]
+  forest where three[BR]
+  large trees are lined[BR]
+  up. Recite those words[BR]
+  there.
+
+#END()
+
+// String 2-91 (0x11DB7)
+// カイル：　トモヨノダイピンポン
+//Line179
+
+//Kyle: TOMOYONODAIPINPON
+
+Kyle: JUSTINBAILEY
+
+#END()
+
+// String 2-92 (0x11DC3)
+// キャル：どんぐりよ
+Cal: It's an acorn.
+
+#END()
+
+// String 2-93 (0x11DC9)
+// キャル：あかいミよ
+Cal: It's a red fruit.
+
+#END()
+
+// String 2-94 (0x11DCF)
+// キャル：かわが　あるわ
+//Line140
+Cal: It's a river.
+
+#END()
+
+// String 2-95 (0x11DD5)
+// キャル：いわにのって　わたれるわよ
+Cal: We can cross the[BR]
+  river by walking over[BR]
+  those boulders.
+
+#END()
+
+// String 2-96 (0x11DE2)
+// キャル：カイル！　なに　みずあそびしてるのよ
+Cal: Kyle, this is no[BR]
+  time to play with[BR]
+  water!
+
+#END()
+
+// String 2-97 (0x11DEF)
+// バシャ　バシャ
+(splish) (splash)
+
+#END()
+
+// String 2-98 (0x11DF6)
+// キャル：たきだわ
+//Line141
+Cal: It's a waterfall.
+
+#END()
+
+// String 2-99 (0x11DFB)
+// キャル：なにやってるのよ　ぬれちゃうじゃない
+Cal: What are you doing?[BR]
+  We'll get wet!
+
+#END()
+
+// String 2-100 (0x11E0B)
+// キャル：あっ　カイル！　どこいくのよ
+//Line142
+Cal: Kyle, where are you[BR]
+  going??
+
+#END()
+
+// String 2-101 (0x11E15)
+// キャル：カイル！　やめようよ[BR]
+// 　　おじいさん　あかいはなが　にせものだと[BR]
+// 　　わかって　おこってるわよ
+Cal: Stop it, Kyle![BR]
+  He'll get angry if he[BR]
+  realizes it's not a[BR]
+  real red flower!
+
+#END()
+
+// String 2-102 (0x11E3D)
+// キャル：おいだされちゃったじゃない
+Cal: He threw us out!
+
+#END()
+
+// String 2-103 (0x11E4B)
+// カイル：よし！　こんどは　ぼくがふいてやろう
+Kyle: Okay, my turn to[BR]
+  play!
+
+#END()
+
+// String 2-104 (0x11E5C)
+// ０
+０
+
+#END()
+
+// String 2-105 (0x11E5D)
+// ヒュ～～～～
+//Line192
+(whoooosh)
+
+#END()
+
+// String 2-106 (0x11E61)
+// ０
+０
+
+#END()
+
+// String 2-107 (0x11E62)
+// キャル：もう　いけないみたいね
+Cal: I don't think we[BR]
+  can go there again.
+
+#END()
+
+// String 2-108 (0x11E6E)
+// キャル：もう　たおれないわね
+Cal: I don't think it'll[BR]
+  fall again.
+
+#END()
+
+// String 2-109 (0x11E79)
+// ０
+０
+
+#END()
+
+// String 2-110 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-111 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-112 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-113 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-114 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-115 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-116 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-117 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-118 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-119 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-120 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-121 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-122 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-123 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-124 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-125 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-126 (0x11E7A)
+// 
+
+
+#END()
+
+// String 2-127 (0x11E7A)
+// クレル：こんちは　キャルちゃん　どこかにいくの？
+// 
+//Line112
+Crell: Hi there, Cal.[BR]
+  Going somewhere?
+
+#END()
+
+// String 2-128 (0x11E8C)
+// クレル：ふ～～ん　きをつけてね
+//Line114
+Crell: I see. Good luck[BR]
+  with that.
+
+#END()
+
+// String 2-129 (0x11E97)
+// 　　あっ　そうだ　ものしりじいさんに　あってから
+// 　　いくといいよ。　きっとちからに　なってくれる
+// 　　とおもうよ
+//Line115
+  You should visit the[BR]
+  wise old man. He might[BR]
+  be able to help you.
+
+#END()
+
+// String 2-130 (0x11EC7)
+// クレル：こんちは　キャルちゃん
+//Line167
+Crell: Hi there, Cal.
+
+#END()
+
+// String 2-131 (0x11ED0)
+// クレル：ボクに　くれるの？[BR]
+// 　　じゃあ　かわりに　ボクのクルミを　あげるよ
+//Line127
+Crell: Is that for me?[BR]
+  Hold on, I'll give you[BR]
+  my walnut in exchange.
+
+#END()
+
+// String 2-132 (0x11EEE)
+// クレル：ボクのあげた　クルミじゃないか[BR]
+// 　　とっときなよ
+Crell: That's the walnut[BR]
+  I gave you. You can[BR]
+  keep it.
+
+#END()
+
+// String 2-133 (0x11F05)
+// クレル：またくれるの？　ありがと
+Crell: Another one? Why,[BR]
+  thank you.
+
+#END()
+
+// String 2-134 (0x11F12)
+// クレル：きれいな　ハナだね
+Crell: What a nice flo-[BR]
+  wer.
+
+#END()
+
+// String 2-135 (0x11F1C)
+// クレル：ボクのうちなんだ　かってに　はいらないで[BR]
+// 　　くれるかな
+Crell: Please don't en-[BR]
+  ter my house without[BR]
+  permission.
+
+#END()
+
+// String 2-136 (0x11F36)
+// クレル：どうしたんだい？　キャルちゃん
+Crell: What's the ma-[BR]
+  tter, Cal?
+
+#END()
+
+// String 2-137 (0x11F44)
+// オスギツネ：なんのようだ　はやく　でてってくれ！
+// 
+//Line118
+Male Fox: What do you[BR]
+  want?! Get out of[BR]
+  here!
+
+#END()
+
+// String 2-138 (0x11F57)
+// オスギツネ：また　オマエたちか　でてってくれ！
+Male Fox: You again?![BR]
+  Why won't you leave us[BR]
+  alone?!
+
+#END()
+
+// String 2-139 (0x11F69)
+// オスギツネ：なにをみてる　はやく　でてってくれ！
+// 
+Male Fox: What are you[BR]
+  staring at? Just leave[BR]
+  us alone!
+
+#END()
+
+// String 2-140 (0x11F7B)
+// オスギツネ：なにをするんだ　でてってくれ！
+Male Fox: What are you[BR]
+  doing?! Get out!!
+
+#END()
+
+// String 2-141 (0x11F8A)
+// オスギツネ：そんなもの　いらないから[BR]
+// 　　はやく　でてってくれ！
+Male Fox: We don't need[BR]
+  that. Just leave al-[BR]
+  ready!
+
+#END()
+
+// String 2-142 (0x11FA2)
+// オスギツネ：なにをしている
+//Line119
+Male Fox: What are you[BR]
+  doing?
+
+#END()
+
+// String 2-143 (0x11FA9)
+// メスギツネ：まあっ　きれいな　ねいろね[BR]
+// 　　おれいに　このハナを　あなたにあげるわ
+//Line121
+Female Fox: What a love-[BR]
+  ly tune! Here, I'll[BR]
+  give you this flower[BR]
+  in exchange.
+
+#END()
+
+// String 2-144 (0x11FCC)
+// フクロウ：しってるけど　おしえてやらんもんね～～
+// 
+Owl: I know, but I won't[BR]
+  tell youuuu!
+
+#END()
+
+// String 2-145 (0x11FD5)
+// フクロウ：わるさすると　おしえてやらんもんね～～
+// 
+Owl: I won't say any-[BR]
+  thing if you bully[BR]
+  meeee!
+
+#END()
+
+// String 2-146 (0x11FDE)
+// フクロウ：これだけでは　おしえてやらんもんね～～
+// 
+Owl: I won't say any-[BR]
+  thing just yet! I want[BR]
+  moooore!
+
+#END()
+
+// String 2-147 (0x11FE7)
+// フクロウ：まだ　おしえてやらんもんね～～
+Owl: Not yet! Give me[BR]
+  more and I'll tell[BR]
+  youuuu!
+
+#END()
+
+// String 2-148 (0x11FEF)
+// フクロウ：ごちそうさま～～[BR]
+// 　　じいさんなら　みずのかべのなか　だもんね～～
+// 
+Owl: Yummy! Okay, the[BR]
+  old man is inside the[BR]
+  wall of waterrrr!
+
+#END()
+
+// String 2-149 (0x12009)
+// フクロウ：ごちそうさま～～
+//Line134-Line135-Line136-Line137
+Owl: Yummyyyy!
+
+#END()
+
+// String 2-150 (0x12011)
+// ムササビ：なんだい？　きみたちは
+//Line189
+Flying Squirrel: Huh?[BR]
+  What do you want?
+
+#END()
+
+// String 2-151 (0x12021)
+// 　　そのかっこうからいくと　ゲロゲールたいじに[BR]
+// 　　いくつもりだね？　やめたほうがいいよ　きみた[BR]
+// 　　ちにはムリだよ
+  You really think you[BR]
+  can defeat Groaker?[BR]
+  Nah, you'll never make[BR]
+  it. You'd better give[BR]
+  up.
+
+#END()
+
+// String 2-152 (0x12052)
+// ムササビ：あっ　かのじょの　むねにつけているのは[BR]
+// 　　もしかして　じんぎかい？[BR]
+// 　　それを　てにいれることが　できたのか
+//Line190
+Flying Squirrel: Wait,[BR]
+  is she wearing the[BR]
+  sacred treasure around[BR]
+  her neck? So you were[BR]
+  able to get it, huh?
+
+#END()
+
+// String 2-153 (0x12085)
+// 　　きみたちなら　あのゲロゲールを　やっつける[BR]
+// 　　ことができるかも・・・[BR]
+// 　　よし　ボクが　ゆきやままで　のせてってやるよ[BR]
+// 
+//Line191
+  Maybe you DO have what[BR]
+  it takes to defeat[BR]
+  Groaker...[BR]
+  Alright then. I'll[BR]
+  take you to the moun-[BR]
+  tains.[BR]
+  Jump on!
+
+#END()
+
+// String 2-154 (0x120B7)
+// フクロウ：そんなもの　いらないもんね～～
+Owl: I don't want[BR]
+  thaaaat!
+
+#END()
+
+// String 2-155 (0x120C5)
+// オスギツネ：うわっ　なんという　ひどいおとだ[BR]
+// 　　でてってくれ！
+Male Fox: Argh! That's[BR]
+  terrible! Get out of[BR]
+  here, now!!
+
+#END()
+
+// String 2-156 (0x120DE)
+// フクロウ：おっとっと！
+Owl: Whoa there!
+
+#END()
+
+// String 2-157 (0x120E5)
+// フクロウ：わし　なんにも　しらんもんね～～
+//Line155
+Owl: Don't ask me. I[BR]
+  don't know any-[BR]
+  thiiiing!
+
+#END()
+
+// String 2-158 (0x120F2)
+// フクロウ：じいさんなら　みずのかべのなか　だもん[BR]
+// 　　ね～～
+//Line139
+Owl: The old man? He's[BR]
+  inside the wall of wa-[BR]
+  teeeer!
+
+#END()
+
+#END()
+
+

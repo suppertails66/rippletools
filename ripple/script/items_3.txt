@@ -1,0 +1,68 @@
+//================================================
+// Area 3 and 4 items
+//================================================
+
+// String 3-0 (0x1EFF8)
+// ススキ　　　　　
+Zebra Grass 
+
+
+#END()
+
+// String 3-1 (0x1F000)
+// ニンジン　　　　
+Carrot      
+
+
+#END()
+
+// String 3-2 (0x1F008)
+// アザラシのヒゲ　
+//Seal's Whisker
+Whisker     
+
+
+#END()
+
+// String 3-3 (0x1F010)
+// コルクビン　　　
+//Corked Bottle
+Corked Jar  
+
+
+#END()
+
+// String 3-4 (0x1F018)
+// コルクせん　　　
+//Cork Stopper
+Cork Plug   
+
+
+#END()
+
+// String 3-5 (0x1F020)
+// ロープ　　　　　
+Rope        
+
+
+#END()
+
+// String 3-6 (0x1F028)
+// とりのハネ　　　
+Feather     
+
+
+#END()
+
+// String 3-7 (0x1F030)
+// ヒカリゴケ　　　
+Shiny Moss  
+
+
+#END()
+
+// List terminator
+<$FF>
+
+#END()
+
